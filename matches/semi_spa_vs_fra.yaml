@@ -1,0 +1,85 @@
+# 2026 世界杯半决赛：西班牙 vs 法国
+
+tournament:
+  name: "2026 FIFA World Cup"
+  stage: "semi-final"
+  group: ""
+
+match:
+  home: "Spain"
+  away: "France"
+  date: "2026-07-08"
+  venue: "AT&T Stadium"
+  match_number: 62
+
+home_team:
+  formation: "4-3-3"
+  lineup:
+    - "Unai Simon"
+    - "Carvajal"
+    - "Nacho"
+    - "Laporte"
+    - "Gavi"
+    - "Rodri"
+    - "Pedri"
+    - "Merino"
+    - "Ferran Torres"
+    - "Morata"
+    - "Olmo"
+  injuries: []
+  suspensions: []
+
+away_team:
+  formation: "4-2-3-1"
+  lineup:
+    - "Mike Maignan"
+    - "Pavard"
+    - "Konate"
+    - "Varane"
+    - "T.Hernandez"
+    - "Kante"
+    - "Tchouameni"
+    - "Ousmane Dembele"
+    - "Kylian Mbappe"
+    - "Griezmann"
+    - "Randal Kolo Muani"
+  injuries:
+    - "Camavinga - thigh strain"
+  suspensions: []
+
+home_history:
+  - opponent: "Brazil"
+    score: "2-1"
+    stage: "quarter-final"
+  - opponent: "Mexico"
+    score: "3-1"
+    stage: "round-of-16"
+  - opponent: "Japan"
+    score: "2-0"
+    stage: "group"
+
+away_history:
+  - opponent: "Portugal"
+    score: "2-1"
+    stage: "quarter-final"
+  - opponent: "Senegal"
+    score: "3-0"
+    stage: "round-of-16"
+  - opponent: "Canada"
+    score: "2-1"
+    stage: "group"
+
+h2h:
+  recent_results: ["1-1", "2-1 Spain", "0-0", "1-2 France", "2-2"]
+  notes: "近五次交手胜负交错，大赛多次加时决胜"
+
+notes: "欧洲杯新王对上卫冕世界杯冠军，传控对阵高速反击"
+
+# ── 辩论参数覆盖（可选，不写则用 system.yaml 的默认值）──
+# debate:
+#   mode: "pro_con"
+#   pro_count: 2
+#   con_count: 2
+
+# ── 本地证据文件（从 evidence/ 目录选择，可多选）──
+evidence_files: []

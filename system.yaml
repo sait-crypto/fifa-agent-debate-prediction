@@ -1,0 +1,6 @@
+# 用户覆盖配置 — 仅写需要修改的项，其余使用 system_default.yaml 的值
+
+llm_preset: "deepseek"
+
+debate:
+  mode: "roundtable"           # 修正：roundtable（非 roundtale）

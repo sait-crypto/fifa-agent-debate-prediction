@@ -1,0 +1,1212 @@
+{
+  "igence": [
+    {
+      "intelligence": {
+        "intelligenceteam": [
+          {
+            "content": "韩国6场比赛4胜0平，状态出色。"
+          },
+          {
+            "content": "韩国本赛季近10个主场比赛，在领先的情况下最终主场赢球率达100%。"
+          }
+        ],
+        "intelligenceTeamInfo": {
+          "link": "/al/team?id=e350aa265bc58bf922eb6ec5d3b705f3",
+          "logo": "https://gips3.baidu.com/it/u=605950860,946410169&fm=3028&app=3028&f=PNG&fmt=auto&q=100&size=f768_512",
+          "name": "韩国"
+        },
+        "intelligenceteamleater": [
+          {
+            "content": "捷克6场比赛连胜，状态极佳。"
+          },
+          {
+            "content": "捷克近10场正赛主场8胜2平0负，表现出色。"
+          }
+        ],
+        "intelligenceteamLeaterInfo": {
+          "link": "/al/team?id=bd0c6be1d4f081864fd88755b05c4f49",
+          "logo": "https://gips3.baidu.com/it/u=2347456389,963830118&fm=3028&app=3028&f=PNG&fmt=auto&q=100&size=f250_167",
+          "name": "捷克"
+        }
+      },
+      "intelligencetitle": "有利情报"
+    },
+    {
+      "intelligence": {
+        "intelligenceteam": [
+          {
+            "content": "韩国近10场主场比赛得失球不超过2球的场次达到7场。"
+          },
+          {
+            "content": "韩国本赛季近10个客场比赛，在落后的情况下最终客场输球率达100%。"
+          }
+        ],
+        "intelligenceTeamInfo": {
+          "link": "/al/team?id=e350aa265bc58bf922eb6ec5d3b705f3",
+          "logo": "https://gips3.baidu.com/it/u=605950860,946410169&fm=3028&app=3028&f=PNG&fmt=auto&q=100&size=f768_512",
+          "name": "韩国"
+        },
+        "intelligenceteamleater": [
+          {
+            "content": "捷克本赛季近10个客场比赛，在落后的情况下最终客场输球率达100%。"
+          }
+        ],
+        "intelligenceteamLeaterInfo": {
+          "link": "/al/team?id=bd0c6be1d4f081864fd88755b05c4f49",
+          "logo": "https://gips3.baidu.com/it/u=2347456389,963830118&fm=3028&app=3028&f=PNG&fmt=auto&q=100&size=f250_167",
+          "name": "捷克"
+        }
+      },
+      "intelligencetitle": "不利情报"
+    }
+  ],
+  "homeRecord": [
+    {
+      "history": {
+        "probability": [
+          {
+            "title": "胜率 100%",
+            "win": {
+              "value": 1,
+              "text": "胜"
+            },
+            "draw": {
+              "value": 0,
+              "text": "平"
+            },
+            "loss": {
+              "value": 0,
+              "text": "负"
+            }
+          },
+          {
+            "title": "赢盘率 100%",
+            "win": {
+              "value": 1,
+              "text": "赢"
+            },
+            "draw": {
+              "value": 0,
+              "text": "走"
+            },
+            "loss": {
+              "value": 0,
+              "text": "输"
+            }
+          },
+          {
+            "title": "大球率 100%",
+            "win": {
+              "value": 1,
+              "text": "大"
+            },
+            "draw": {
+              "value": 0,
+              "text": "走"
+            },
+            "loss": {
+              "value": 0,
+              "text": "小"
+            }
+          }
+        ],
+        "img": "",
+        "list": [
+          {
+            "date": "2016-06-05",
+            "left": {
+              "name": "捷克",
+              "type": "img",
+              "value": "https://gips3.baidu.com/it/u=2347456389,963830118&fm=3028&app=3028&f=PNG&fmt=auto&q=100&size=f250_167",
+              "score": "1",
+              "isWin": false
+            },
+            "match": "国际友谊",
+            "right": {
+              "name": "韩国",
+              "type": "img",
+              "value": "https://gips3.baidu.com/it/u=605950860,946410169&fm=3028&app=3028&f=PNG&fmt=auto&q=100&size=f768_512",
+              "score": "2",
+              "isWin": true
+            },
+            "vs": "1-2",
+            "oddsTotalGoals": {
+              "value": "2.25",
+              "desc": "大球"
+            },
+            "oddsHandicap": {
+              "value": "0.75",
+              "desc": "赢盘"
+            }
+          }
+        ],
+        "headList": [
+          {
+            "date": "2016-06-05",
+            "match": "国际友谊"
+          }
+        ],
+        "headTitle": "",
+        "listTitle": [
+          "对阵比分",
+          "让球",
+          "进球数"
+        ],
+        "result": "",
+        "title": "历史战绩",
+        "subTitle": "以下数据均为主队(韩国)视角"
+      },
+      "home": {
+        "probability": null,
+        "img": "",
+        "list": null,
+        "headList": null,
+        "headTitle": "",
+        "listTitle": null,
+        "result": "",
+        "title": "",
+        "subTitle": ""
+      }
+    },
+    {
+      "history": {
+        "probability": [
+          {
+            "title": "胜率 67%",
+            "win": {
+              "value": 4,
+              "text": "胜"
+            },
+            "draw": {
+              "value": 0,
+              "text": "平"
+            },
+            "loss": {
+              "value": 2,
+              "text": "负"
+            }
+          },
+          {
+            "title": "赢盘率 33%",
+            "win": {
+              "value": 2,
+              "text": "赢"
+            },
+            "draw": {
+              "value": 1,
+              "text": "走"
+            },
+            "loss": {
+              "value": 3,
+              "text": "输"
+            }
+          },
+          {
+            "title": "大球率 33%",
+            "win": {
+              "value": 2,
+              "text": "大"
+            },
+            "draw": {
+              "value": 0,
+              "text": "走"
+            },
+            "loss": {
+              "value": 4,
+              "text": "小"
+            }
+          }
+        ],
+        "img": "https://gips3.baidu.com/it/u=605950860,946410169&fm=3028&app=3028&f=PNG&fmt=auto&q=100&size=f768_512",
+        "list": [
+          {
+            "date": "2026-06-04",
+            "left": {
+              "name": "韩国",
+              "type": "name",
+              "value": "韩国",
+              "score": "1",
+              "isWin": true
+            },
+            "match": "国际友谊",
+            "right": {
+              "name": "萨尔瓦多",
+              "type": "name",
+              "value": "萨尔瓦多",
+              "score": "0",
+              "isWin": false
+            },
+            "vs": "1-0",
+            "oddsTotalGoals": {
+              "value": "2.75",
+              "desc": "小球"
+            },
+            "oddsHandicap": {
+              "value": "1.5",
+              "desc": "输盘"
+            }
+          },
+          {
+            "date": "2026-05-31",
+            "left": {
+              "name": "韩国",
+              "type": "name",
+              "value": "韩国",
+              "score": "5",
+              "isWin": true
+            },
+            "match": "国际友谊",
+            "right": {
+              "name": "特立尼达和多巴哥",
+              "type": "name",
+              "value": "特立尼达和多巴哥",
+              "score": "0",
+              "isWin": false
+            },
+            "vs": "5-0",
+            "oddsTotalGoals": {
+              "value": "3.25",
+              "desc": "大球"
+            },
+            "oddsHandicap": {
+              "value": "2.25",
+              "desc": "赢盘"
+            }
+          },
+          {
+            "date": "2026-04-01",
+            "left": {
+              "name": "奥地利",
+              "type": "name",
+              "value": "奥地利",
+              "score": "1",
+              "isWin": true
+            },
+            "match": "国际友谊",
+            "right": {
+              "name": "韩国",
+              "type": "name",
+              "value": "韩国",
+              "score": "0",
+              "isWin": false
+            },
+            "vs": "1-0",
+            "oddsTotalGoals": {
+              "value": "2.75",
+              "desc": "小球"
+            },
+            "oddsHandicap": {
+              "value": "0.75",
+              "desc": "输盘"
+            }
+          },
+          {
+            "date": "2026-03-28",
+            "left": {
+              "name": "韩国",
+              "type": "name",
+              "value": "韩国",
+              "score": "0",
+              "isWin": false
+            },
+            "match": "国际友谊",
+            "right": {
+              "name": "科特迪瓦",
+              "type": "name",
+              "value": "科特迪瓦",
+              "score": "4",
+              "isWin": true
+            },
+            "vs": "0-4",
+            "oddsTotalGoals": {
+              "value": "2.25",
+              "desc": "大球"
+            },
+            "oddsHandicap": {
+              "value": "-0.25",
+              "desc": "输盘"
+            }
+          },
+          {
+            "date": "2025-11-18",
+            "left": {
+              "name": "韩国",
+              "type": "name",
+              "value": "韩国",
+              "score": "1",
+              "isWin": true
+            },
+            "match": "国际友谊",
+            "right": {
+              "name": "加纳",
+              "type": "name",
+              "value": "加纳",
+              "score": "0",
+              "isWin": false
+            },
+            "vs": "1-0",
+            "oddsTotalGoals": {
+              "value": "2.75",
+              "desc": "小球"
+            },
+            "oddsHandicap": {
+              "value": "1.0",
+              "desc": "走盘"
+            }
+          },
+          {
+            "date": "2025-11-14",
+            "left": {
+              "name": "韩国",
+              "type": "name",
+              "value": "韩国",
+              "score": "2",
+              "isWin": true
+            },
+            "match": "国际友谊",
+            "right": {
+              "name": "玻利维亚",
+              "type": "name",
+              "value": "玻利维亚",
+              "score": "0",
+              "isWin": false
+            },
+            "vs": "2-0",
+            "oddsTotalGoals": {
+              "value": "2.5",
+              "desc": "小球"
+            },
+            "oddsHandicap": {
+              "value": "1.0",
+              "desc": "赢盘"
+            }
+          }
+        ],
+        "headList": [
+          {
+            "date": "2026-06-04",
+            "match": "国际友谊"
+          },
+          {
+            "date": "2026-05-31",
+            "match": "国际友谊"
+          },
+          {
+            "date": "2026-04-01",
+            "match": "国际友谊"
+          },
+          {
+            "date": "2026-03-28",
+            "match": "国际友谊"
+          },
+          {
+            "date": "2025-11-18",
+            "match": "国际友谊"
+          },
+          {
+            "date": "2025-11-14",
+            "match": "国际友谊"
+          }
+        ],
+        "headTitle": "时间/赛事",
+        "listTitle": [
+          "对阵比分",
+          "让球",
+          "进球数"
+        ],
+        "result": "4胜2负0平",
+        "title": "韩国近期战绩",
+        "subTitle": "",
+        "resultArr": {
+          "count": 6,
+          "list": [
+            {
+              "count": "4",
+              "name": "胜"
+            },
+            {
+              "count": "0",
+              "name": "平"
+            },
+            {
+              "count": "2",
+              "name": "负"
+            }
+          ]
+        },
+        "team_name": "韩国"
+      },
+      "home": {
+        "probability": [
+          {
+            "title": "胜率 83%",
+            "win": {
+              "value": 5,
+              "text": "胜"
+            },
+            "draw": {
+              "value": 0,
+              "text": "平"
+            },
+            "loss": {
+              "value": 1,
+              "text": "负"
+            }
+          },
+          {
+            "title": "赢盘率 50%",
+            "win": {
+              "value": 3,
+              "text": "赢"
+            },
+            "draw": {
+              "value": 1,
+              "text": "走"
+            },
+            "loss": {
+              "value": 2,
+              "text": "输"
+            }
+          },
+          {
+            "title": "大球率 33%",
+            "win": {
+              "value": 2,
+              "text": "大"
+            },
+            "draw": {
+              "value": 0,
+              "text": "走"
+            },
+            "loss": {
+              "value": 4,
+              "text": "小"
+            }
+          }
+        ],
+        "img": "https://gips3.baidu.com/it/u=605950860,946410169&fm=3028&app=3028&f=PNG&fmt=auto&q=100&size=f768_512",
+        "list": [
+          {
+            "date": "2026-06-04",
+            "left": {
+              "name": "韩国",
+              "type": "name",
+              "value": "韩国",
+              "score": "1",
+              "isWin": true
+            },
+            "match": "国际友谊",
+            "right": {
+              "name": "萨尔瓦多",
+              "type": "name",
+              "value": "萨尔瓦多",
+              "score": "0",
+              "isWin": false
+            },
+            "vs": "1-0",
+            "oddsTotalGoals": {
+              "value": "2.75",
+              "desc": "小球"
+            },
+            "oddsHandicap": {
+              "value": "1.5",
+              "desc": "输盘"
+            }
+          },
+          {
+            "date": "2026-05-31",
+            "left": {
+              "name": "韩国",
+              "type": "name",
+              "value": "韩国",
+              "score": "5",
+              "isWin": true
+            },
+            "match": "国际友谊",
+            "right": {
+              "name": "特立尼达和多巴哥",
+              "type": "name",
+              "value": "特立尼达和多巴哥",
+              "score": "0",
+              "isWin": false
+            },
+            "vs": "5-0",
+            "oddsTotalGoals": {
+              "value": "3.25",
+              "desc": "大球"
+            },
+            "oddsHandicap": {
+              "value": "2.25",
+              "desc": "赢盘"
+            }
+          },
+          {
+            "date": "2026-03-28",
+            "left": {
+              "name": "韩国",
+              "type": "name",
+              "value": "韩国",
+              "score": "0",
+              "isWin": false
+            },
+            "match": "国际友谊",
+            "right": {
+              "name": "科特迪瓦",
+              "type": "name",
+              "value": "科特迪瓦",
+              "score": "4",
+              "isWin": true
+            },
+            "vs": "0-4",
+            "oddsTotalGoals": {
+              "value": "2.25",
+              "desc": "大球"
+            },
+            "oddsHandicap": {
+              "value": "-0.25",
+              "desc": "输盘"
+            }
+          },
+          {
+            "date": "2025-11-18",
+            "left": {
+              "name": "韩国",
+              "type": "name",
+              "value": "韩国",
+              "score": "1",
+              "isWin": true
+            },
+            "match": "国际友谊",
+            "right": {
+              "name": "加纳",
+              "type": "name",
+              "value": "加纳",
+              "score": "0",
+              "isWin": false
+            },
+            "vs": "1-0",
+            "oddsTotalGoals": {
+              "value": "2.75",
+              "desc": "小球"
+            },
+            "oddsHandicap": {
+              "value": "1.0",
+              "desc": "走盘"
+            }
+          },
+          {
+            "date": "2025-11-14",
+            "left": {
+              "name": "韩国",
+              "type": "name",
+              "value": "韩国",
+              "score": "2",
+              "isWin": true
+            },
+            "match": "国际友谊",
+            "right": {
+              "name": "玻利维亚",
+              "type": "name",
+              "value": "玻利维亚",
+              "score": "0",
+              "isWin": false
+            },
+            "vs": "2-0",
+            "oddsTotalGoals": {
+              "value": "2.5",
+              "desc": "小球"
+            },
+            "oddsHandicap": {
+              "value": "1.0",
+              "desc": "赢盘"
+            }
+          },
+          {
+            "date": "2025-10-14",
+            "left": {
+              "name": "韩国",
+              "type": "name",
+              "value": "韩国",
+              "score": "2",
+              "isWin": true
+            },
+            "match": "国际友谊",
+            "right": {
+              "name": "巴拉圭",
+              "type": "name",
+              "value": "巴拉圭",
+              "score": "0",
+              "isWin": false
+            },
+            "vs": "2-0",
+            "oddsTotalGoals": {
+              "value": "2.25",
+              "desc": "小球"
+            },
+            "oddsHandicap": {
+              "value": "0.25",
+              "desc": "赢盘"
+            }
+          }
+        ],
+        "headList": [
+          {
+            "date": "2026-06-04",
+            "match": "国际友谊"
+          },
+          {
+            "date": "2026-05-31",
+            "match": "国际友谊"
+          },
+          {
+            "date": "2026-03-28",
+            "match": "国际友谊"
+          },
+          {
+            "date": "2025-11-18",
+            "match": "国际友谊"
+          },
+          {
+            "date": "2025-11-14",
+            "match": "国际友谊"
+          },
+          {
+            "date": "2025-10-14",
+            "match": "国际友谊"
+          }
+        ],
+        "headTitle": "时间/赛事",
+        "listTitle": [
+          "对阵比分",
+          "让球",
+          "进球数"
+        ],
+        "result": "5胜1负0平",
+        "title": "韩国近期战绩",
+        "subTitle": "",
+        "resultArr": {
+          "count": 6,
+          "list": [
+            {
+              "count": "5",
+              "name": "胜"
+            },
+            {
+              "count": "0",
+              "name": "平"
+            },
+            {
+              "count": "1",
+              "name": "负"
+            }
+          ]
+        },
+        "team_name": "韩国"
+      }
+    },
+    {
+      "history": {
+        "probability": [
+          {
+            "title": "胜率 67%",
+            "win": {
+              "value": 4,
+              "text": "胜"
+            },
+            "draw": {
+              "value": 2,
+              "text": "平"
+            },
+            "loss": {
+              "value": 0,
+              "text": "负"
+            }
+          },
+          {
+            "title": "赢盘率 50%",
+            "win": {
+              "value": 3,
+              "text": "赢"
+            },
+            "draw": {
+              "value": 1,
+              "text": "走"
+            },
+            "loss": {
+              "value": 2,
+              "text": "输"
+            }
+          },
+          {
+            "title": "大球率 83%",
+            "win": {
+              "value": 5,
+              "text": "大"
+            },
+            "draw": {
+              "value": 0,
+              "text": "走"
+            },
+            "loss": {
+              "value": 1,
+              "text": "小"
+            }
+          }
+        ],
+        "img": "https://gips3.baidu.com/it/u=2347456389,963830118&fm=3028&app=3028&f=PNG&fmt=auto&q=100&size=f250_167",
+        "list": [
+          {
+            "date": "2026-06-05",
+            "left": {
+              "name": "捷克",
+              "type": "name",
+              "value": "捷克",
+              "score": "3",
+              "isWin": true
+            },
+            "match": "国际友谊",
+            "right": {
+              "name": "危地马拉",
+              "type": "name",
+              "value": "危地马拉",
+              "score": "1",
+              "isWin": false
+            },
+            "vs": "3-1",
+            "oddsTotalGoals": {
+              "value": "2.75",
+              "desc": "大球"
+            },
+            "oddsHandicap": {
+              "value": "1.5",
+              "desc": "赢盘"
+            }
+          },
+          {
+            "date": "2026-05-31",
+            "left": {
+              "name": "捷克",
+              "type": "name",
+              "value": "捷克",
+              "score": "2",
+              "isWin": true
+            },
+            "match": "国际友谊",
+            "right": {
+              "name": "科索沃",
+              "type": "name",
+              "value": "科索沃",
+              "score": "1",
+              "isWin": false
+            },
+            "vs": "2-1",
+            "oddsTotalGoals": {
+              "value": "2.5",
+              "desc": "大球"
+            },
+            "oddsHandicap": {
+              "value": "1.0",
+              "desc": "走盘"
+            }
+          },
+          {
+            "date": "2026-04-01",
+            "left": {
+              "name": "捷克",
+              "type": "name",
+              "value": "捷克",
+              "score": "2",
+              "isWin": false
+            },
+            "match": "世欧预",
+            "right": {
+              "name": "丹麦",
+              "type": "name",
+              "value": "丹麦",
+              "score": "2",
+              "isWin": false
+            },
+            "vs": "2-2",
+            "oddsTotalGoals": {
+              "value": "2.25",
+              "desc": "大球"
+            },
+            "oddsHandicap": {
+              "value": "-0.25",
+              "desc": "赢盘"
+            }
+          },
+          {
+            "date": "2026-03-27",
+            "left": {
+              "name": "捷克",
+              "type": "name",
+              "value": "捷克",
+              "score": "2",
+              "isWin": false
+            },
+            "match": "世欧预",
+            "right": {
+              "name": "爱尔兰",
+              "type": "name",
+              "value": "爱尔兰",
+              "score": "2",
+              "isWin": false
+            },
+            "vs": "2-2",
+            "oddsTotalGoals": {
+              "value": "2.25",
+              "desc": "大球"
+            },
+            "oddsHandicap": {
+              "value": "0.5",
+              "desc": "输盘"
+            }
+          },
+          {
+            "date": "2025-11-18",
+            "left": {
+              "name": "捷克",
+              "type": "name",
+              "value": "捷克",
+              "score": "6",
+              "isWin": true
+            },
+            "match": "世欧预",
+            "right": {
+              "name": "直布罗陀",
+              "type": "name",
+              "value": "直布罗陀",
+              "score": "0",
+              "isWin": false
+            },
+            "vs": "6-0",
+            "oddsTotalGoals": {
+              "value": "5.0",
+              "desc": "大球"
+            },
+            "oddsHandicap": {
+              "value": "4.5",
+              "desc": "赢盘"
+            }
+          },
+          {
+            "date": "2025-11-14",
+            "left": {
+              "name": "捷克",
+              "type": "name",
+              "value": "捷克",
+              "score": "1",
+              "isWin": true
+            },
+            "match": "国际友谊",
+            "right": {
+              "name": "圣马力诺",
+              "type": "name",
+              "value": "圣马力诺",
+              "score": "0",
+              "isWin": false
+            },
+            "vs": "1-0",
+            "oddsTotalGoals": {
+              "value": "6.5",
+              "desc": "小球"
+            },
+            "oddsHandicap": {
+              "value": "5.5",
+              "desc": "输盘"
+            }
+          }
+        ],
+        "headList": [
+          {
+            "date": "2026-06-05",
+            "match": "国际友谊"
+          },
+          {
+            "date": "2026-05-31",
+            "match": "国际友谊"
+          },
+          {
+            "date": "2026-04-01",
+            "match": "世欧预"
+          },
+          {
+            "date": "2026-03-27",
+            "match": "世欧预"
+          },
+          {
+            "date": "2025-11-18",
+            "match": "世欧预"
+          },
+          {
+            "date": "2025-11-14",
+            "match": "国际友谊"
+          }
+        ],
+        "headTitle": "时间/赛事",
+        "listTitle": [
+          "对阵比分",
+          "让球",
+          "进球数"
+        ],
+        "result": "4胜0负2平",
+        "title": "捷克近期战绩",
+        "subTitle": "",
+        "resultArr": {
+          "count": 6,
+          "list": [
+            {
+              "count": "4",
+              "name": "胜"
+            },
+            {
+              "count": "2",
+              "name": "平"
+            },
+            {
+              "count": "0",
+              "name": "负"
+            }
+          ]
+        },
+        "team_name": "捷克"
+      },
+      "home": {
+        "probability": [
+          {
+            "title": "胜率 33%",
+            "win": {
+              "value": 1,
+              "text": "胜"
+            },
+            "draw": {
+              "value": 0,
+              "text": "平"
+            },
+            "loss": {
+              "value": 2,
+              "text": "负"
+            }
+          },
+          {
+            "title": "赢盘率 33%",
+            "win": {
+              "value": 1,
+              "text": "赢"
+            },
+            "draw": {
+              "value": 0,
+              "text": "走"
+            },
+            "loss": {
+              "value": 2,
+              "text": "输"
+            }
+          },
+          {
+            "title": "大球率 67%",
+            "win": {
+              "value": 2,
+              "text": "大"
+            },
+            "draw": {
+              "value": 0,
+              "text": "走"
+            },
+            "loss": {
+              "value": 1,
+              "text": "小"
+            }
+          }
+        ],
+        "img": "https://gips3.baidu.com/it/u=2347456389,963830118&fm=3028&app=3028&f=PNG&fmt=auto&q=100&size=f250_167",
+        "list": [
+          {
+            "date": "2025-10-13",
+            "left": {
+              "name": "法罗群岛",
+              "type": "name",
+              "value": "法罗群岛",
+              "score": "2",
+              "isWin": true
+            },
+            "match": "世欧预",
+            "right": {
+              "name": "捷克",
+              "type": "name",
+              "value": "捷克",
+              "score": "1",
+              "isWin": false
+            },
+            "vs": "2-1",
+            "oddsTotalGoals": {
+              "value": "2.75",
+              "desc": "大球"
+            },
+            "oddsHandicap": {
+              "value": "-1.5",
+              "desc": "输盘"
+            }
+          },
+          {
+            "date": "2025-09-06",
+            "left": {
+              "name": "黑山",
+              "type": "name",
+              "value": "黑山",
+              "score": "0",
+              "isWin": false
+            },
+            "match": "世欧预",
+            "right": {
+              "name": "捷克",
+              "type": "name",
+              "value": "捷克",
+              "score": "2",
+              "isWin": true
+            },
+            "vs": "0-2",
+            "oddsTotalGoals": {
+              "value": "2.5",
+              "desc": "小球"
+            },
+            "oddsHandicap": {
+              "value": "-0.75",
+              "desc": "赢盘"
+            }
+          },
+          {
+            "date": "2025-06-10",
+            "left": {
+              "name": "克罗地亚",
+              "type": "name",
+              "value": "克罗地亚",
+              "score": "5",
+              "isWin": true
+            },
+            "match": "世欧预",
+            "right": {
+              "name": "捷克",
+              "type": "name",
+              "value": "捷克",
+              "score": "1",
+              "isWin": false
+            },
+            "vs": "5-1",
+            "oddsTotalGoals": {
+              "value": "2.5",
+              "desc": "大球"
+            },
+            "oddsHandicap": {
+              "value": "0.75",
+              "desc": "输盘"
+            }
+          }
+        ],
+        "headList": [
+          {
+            "date": "2025-10-13",
+            "match": "世欧预"
+          },
+          {
+            "date": "2025-09-06",
+            "match": "世欧预"
+          },
+          {
+            "date": "2025-06-10",
+            "match": "世欧预"
+          }
+        ],
+        "headTitle": "时间/赛事",
+        "listTitle": [
+          "对阵比分",
+          "让球",
+          "进球数"
+        ],
+        "result": "1胜2负0平",
+        "title": "捷克近期战绩",
+        "subTitle": "",
+        "resultArr": {
+          "count": 3,
+          "list": [
+            {
+              "count": "1",
+              "name": "胜"
+            },
+            {
+              "count": "0",
+              "name": "平"
+            },
+            {
+              "count": "2",
+              "name": "负"
+            }
+          ]
+        },
+        "team_name": "捷克"
+      }
+    }
+  ],
+  "result": {
+    "num": "532539",
+    "percentage": {
+      "draw": "28%",
+      "lost": "32%",
+      "session": [
+        "主场胜利",
+        "平局",
+        "客场胜利"
+      ],
+      "victory": "40%"
+    },
+    "resultfont": "赛前预测",
+    "team": [
+      {
+        "icon": "https://gips3.baidu.com/it/u=605950860,946410169&fm=3028&app=3028&f=PNG&fmt=auto&q=100&size=f768_512",
+        "team": "韩国",
+        "winner": "胜",
+        "winrate": "38%"
+      },
+      {
+        "icon": "https://gips3.baidu.com/it/u=2347456389,963830118&fm=3028&app=3028&f=PNG&fmt=auto&q=100&size=f250_167",
+        "team": "捷克",
+        "winner": "胜",
+        "winrate": "33%"
+      }
+    ]
+  },
+  "guess": {
+    "data": [
+      {
+        "bottomColor": "#c92a2a",
+        "color": "#F13F40",
+        "count": 4349,
+        "guessed": false,
+        "name": "韩国",
+        "topColor": "#f03e3e"
+      },
+      {
+        "bottomColor": "#2a8b3e",
+        "color": "#FA9700",
+        "count": 1234,
+        "guessed": true,
+        "name": "平局",
+        "topColor": "#2f9e44"
+      },
+      {
+        "bottomColor": "#3b5bdb",
+        "color": "#3388FF",
+        "count": 4100,
+        "guessed": false,
+        "name": "捷克",
+        "topColor": "#4263eb"
+      }
+    ],
+    "deadlineTime": "06月12日",
+    "guessed": true,
+    "max": 4349,
+    "title": "猜胜负",
+    "total": 9683
+  }
+}

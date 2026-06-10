@@ -1,0 +1,17 @@
+pyproject.toml
+debate_arena/__init__.py
+debate_arena/__main__.py
+debate_arena/agent.py
+debate_arena/config.py
+debate_arena/debate.py
+debate_arena/main.py
+debate_arena/models.py
+debate_arena/predict.py
+debate_arena/renderer.py
+debate_arena/researcher.py
+debate_arena/roundtable.py
+debate_arena.egg-info/PKG-INFO
+debate_arena.egg-info/SOURCES.txt
+debate_arena.egg-info/dependency_links.txt
+debate_arena.egg-info/requires.txt
+debate_arena.egg-info/top_level.txt

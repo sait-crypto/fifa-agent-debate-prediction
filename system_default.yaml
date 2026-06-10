@@ -1,0 +1,63 @@
+# 系统默认配置 — 不要修改此文件，修改 system.yaml 代替
+
+# LLM 预设名（对应 .env 中的前缀，如 DEEPSEEK_API_KEY → preset: deepseek）
+# 可选值：openai / deepseek / deepseek-reasoner / siliconflow / ollama
+# 或 .env 中自定义的任何前缀
+llm_preset: "openai"
+
+# 辩论默认参数
+debate:
+  mode: "pro_con"              # "pro_con" | "roundtable"
+  pro_count: 2                 # 正方 agent 数量
+  con_count: 2                 # 反方 agent 数量
+  agent_count: 4               # 圆桌 agent 数量
+  assigned_stance_count: 1     # 圆桌中分配立场agent数量（0=全部自由，最大=agent_count）
+  max_rounds: 4                # 最大轮次
+  agent_search: true           # agent 是否可自主检索证据
+  agent_speech_hint: 800       # 发言字数软限制提示（0=不限）
+  allow_multi_target_challenge: false  # 允许单次质疑多个对象
+
+  # 正反方质疑配置
+  pro_con_challenge_enabled: true   # 是否开启质疑环节
+  pro_con_challenge_per_agent: 1    # 每个 agent 质疑几个对手
+
+  # 圆桌环节配置
+  roundtable:
+    phase1_enabled: true       # 自由质疑环节
+    phase2_enabled: true       # 分配质疑环节
+    phase_order:               # 环节顺序，至少一个
+      - "phase1"
+      - "phase2"
+    phase1_challenge_count: 1  # 自由质疑每人质疑几个
+    phase2_challenge_count: 1  # 分配质疑每对几轮
+
+# CLI 输出行为
+output:
+  cli_verbose: false           # true 时实时输出 LLM 完整回复
+  cli_truncate: 300            # 终端显示截断字数
+  filename_topic_length: 40    # 文件名话题最大长度
+  dump_evidence_pool: true    # 辩论中实时导出完整证据池文件（公有+私有）
+
+# 上下文/摘要截断限制
+limits:
+  other_agent_summary: 300             # 非交互 agent 消息摘要长度
+  round_summary_arg: 500               # 场记参数截断
+  summary_analyst_arg: 500             # 总结分析师参数截断
+  latest_arg_for_arbitration: 800      # 仲裁/共识检查参数截断
+  free_challenge_retries: 2            # 自由质疑重试次数
+  counter_challenge_max_depth: 4       # 反质疑链最大深度（0=禁用）
+
+# 检索/抓取参数
+fetch:
+  max_content_length: 5000     # 网页抓取最大字符数
+  fetch_timeout: 10            # HTTP 超时（秒）
+  search_max_results: 5        # 搜索结果数上限
+
+# 特殊角色温度覆盖（基础 agent 温度仍用 debate.temperature）
+temperatures:
+  arbitrator: 0.3
+  summary_analyst: 0.3
+  evidence_curator: 0.1
+  round_summarizer: 0.1
+  thinking: 0.3
+  research_llm: 0.3            # researcher.py LLM 降级检索

@@ -1,0 +1,63 @@
+# 比赛配置模板 — 复制后填写
+# 只有 match.home 和 match.away 必填，其他全部可选
+# 辩论参数在 system.yaml 中配置，此处可覆盖
+
+tournament:
+  name: ""             # 赛事名称
+  stage: ""            # group / round-of-16 / quarter-final / semi-final / final
+  group: ""            # 小组赛时填写，如 "A组"
+
+match:
+  home: ""             # 必填：主队
+  away: ""             # 必填：客队
+  date: ""             # 比赛日期，如 "2026-06-09"
+  match_time: ""       # 开赛时间，如 "21:00"（区别于 date）
+  venue: ""
+  match_number:
+
+home_team:
+  world_ranking:     # FIFA 世界排名（可选，如 25）
+  formation: ""
+  lineup: []
+  injuries: []
+  suspensions: []
+
+away_team:
+  world_ranking:     # FIFA 世界排名（可选，如 41）
+  formation: ""
+  lineup: []
+  injuries: []
+  suspensions: []
+
+# 当 analysis_file 有值时，以下字段可省略（由分析数据提供）：
+# - home_history / away_history（战绩记录）
+# - h2h（交锋记录）
+# 有利/不利情报会自动从分析数据提取并归入证据池
+home_history: []
+away_history: []
+
+h2h:
+  recent_results: []
+  notes: ""
+
+notes: ""
+
+# ── 百度体育分析数据（tools/ 目录下的 JSON 文件）──
+# 使用 BaiduTiyuAbstract.py 从百度体育页面提取
+# 设置后自动注入情报和战绩数据，并将情报归入证据池
+# analysis_file: "tools/532539_韩国vs捷克_20260604_20260607.json"
+analysis_file: ""
+
+# ── 本地证据文件（从 evidence/ 目录选择，可多选）──
+# 写文件名即可（可省略 .yaml 后缀）
+# evidence_files:
+#   - "team_a_evidence"
+#   - "team_b_evidence"
+#   - "h2h_evidence"
+evidence_files: []
+
+# ── 历史战绩填写示例 ──
+# home_history:
+#   - opponent: "France"
+#     score: "2-1"
+#     stage: "quarter-final"

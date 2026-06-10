@@ -1,0 +1,447 @@
+{
+  "topic": "韩国 vs 捷克（group 第一轮）",
+  "mode": "roundtable",
+  "consensus": true,
+  "generated_at": "2026-06-08T03:46:19.400490",
+  "agents": [
+    {
+      "name": "分析师1",
+      "stance": "独立分析",
+      "perspective_short": "战术分析师",
+      "prediction_history": [
+        {
+          "count": 1,
+          "action": "立场",
+          "target": "",
+          "winner": "捷克",
+          "score": "2-0",
+          "confidence": 6,
+          "changed": true,
+          "is_challenge": false
+        }
+      ]
+    },
+    {
+      "name": "分析师2",
+      "stance": "独立分析",
+      "perspective_short": "球员观察",
+      "prediction_history": [
+        {
+          "count": 1,
+          "action": "立场",
+          "target": "",
+          "winner": "捷克",
+          "score": "2-1",
+          "confidence": 5,
+          "changed": true,
+          "is_challenge": false
+        }
+      ]
+    },
+    {
+      "name": "分析师3",
+      "stance": "独立分析",
+      "perspective_short": "历史心理",
+      "prediction_history": [
+        {
+          "count": 1,
+          "action": "立场",
+          "target": "",
+          "winner": "捷克",
+          "score": "2-0",
+          "confidence": 6,
+          "changed": true,
+          "is_challenge": false
+        }
+      ]
+    },
+    {
+      "name": "分析师4",
+      "stance": "独立分析",
+      "perspective_short": "数据趋势",
+      "prediction_history": [
+        {
+          "count": 1,
+          "action": "立场",
+          "target": "",
+          "winner": "捷克",
+          "score": "1-0",
+          "confidence": 6,
+          "changed": true,
+          "is_challenge": false
+        }
+      ]
+    },
+    {
+      "name": "分析师5",
+      "stance": "独立分析",
+      "perspective_short": "赛程体能",
+      "prediction_history": [
+        {
+          "count": 1,
+          "action": "立场",
+          "target": "",
+          "winner": "捷克",
+          "score": "2-0",
+          "confidence": 6,
+          "changed": true,
+          "is_challenge": false
+        }
+      ]
+    }
+  ],
+  "rounds": [
+    [
+      {
+        "role": "assistant",
+        "content": "【预测】胜方：捷克 | 比分：2-0 | 信心：6/10\n【论点】\n1. 双方近期状态旗鼓相当（E001、E003），但捷克近10场正赛主场8胜2平保持不败（E004），且近6场比赛全胜，攻防稳定性略优于韩国——韩国近6场虽4胜，但曾0-4惨败科特迪瓦（E001），暴露防守漏洞。\n2. 从战术匹配看，韩国主场低进球倾向明显：近10场主场比赛得失球不超过2球的场次达7场（E005），说明其进攻效率有限，难以对捷克构成持续威胁。捷克作为欧洲球队，擅长利用身体对抗和快速转换，韩国若无法早早领先，将陷入被动。\n3. 关键数据：韩国在落后情况下客场输球率100%（E006），捷克在落后情况下客场输球率100%（E007）。这意味着谁先丢球谁大概率输。考虑到捷克近期状态更稳定且防守更扎实（近6场仅失4球，且对手含丹麦、爱尔兰等实力派），我更看好捷克先取得进球并守住优势。\n4. 历史交锋仅1场（韩国主场2-1胜捷克，2016年友谊赛），距今已10年，参考价值有限。两队阵容和战术体系已大幅变化，不宜过度依赖此记录。\n【引用】E001, E003, E004, E005, E006, E007",
+        "speaker": "分析师1",
+        "target": "",
+        "action": "",
+        "counter_challenge": false
+      },
+      {
+        "role": "assistant",
+        "content": "【预测】胜方：捷克 | 比分：2-1 | 信心：5/10\n【论点】\n1. **球员状态与阵容深度**：捷克近期6连胜（E003），且近10场正赛主场8胜2平（E004），攻防体系成熟。韩国虽4胜（E001），但曾0-4惨败科特迪瓦，暴露出防守端在高压下的脆弱性。捷克拥有更多在欧洲顶级联赛效力的球员，如希克、绍切克等，个人能力和大赛经验优于韩国阵容。\n2. **核心球员与伤病影响**：韩国核心孙兴慜已年过33岁，本届世界杯可能是其最后一届大赛，但近期友谊赛表现未见统治力（E001中仅1-0胜萨尔瓦多）。捷克中场绍切克在英超长期保持高强度对抗，且球队无重大伤病报告，阵容齐整。韩国若孙兴慜被针对性限制，替补深度不足的问题将暴露。\n3. **战术克制**：韩国主场低进球倾向明显（E005），近10场主场7场得失球≤2，说明其进攻效率有限。捷克擅长利用身体对抗和快速转换，而韩国在落后时客场输球率100%（E006），一旦先丢球，心理和战术上均难逆转。\n4. **历史交锋**：2016年友谊赛韩国2-1胜捷克（历史战绩），但距今已10年，阵容和战术体系已完全不同，参考价值有限。捷克近年青训成果显著，整体实力已超越当时。\n\n【引用】E001, E003, E004, E005, E006",
+        "speaker": "分析师2",
+        "target": "",
+        "action": "",
+        "counter_challenge": false
+      },
+      {
+        "role": "assistant",
+        "content": "【预测】胜方：捷克 | 比分：2-0 | 信心：6/10\n【论点】\n1. **历史交锋与心理优势**：韩国与捷克历史上唯一一次交手在2016年，韩国客场2-1获胜。但那是9年前的友谊赛，参考价值有限。更重要的是，捷克近期状态极佳，6连胜（E003）且近10场正赛主场8胜2平不败（E004），在主场作战时心理和竞技状态均处于高位。韩国虽4胜（E001），但对手实力偏弱（萨尔瓦多、特立尼达和多巴哥等），含金量不足。\n2. **防守稳定性差距**：韩国在近6场比赛中曾0-4惨败给科特迪瓦（E001），暴露出防守端在对抗强队时的系统性漏洞。而捷克近6场连胜中仅失2球（E003），防守稳固。捷克在欧洲顶级联赛效力的球员（如绍切克、希克）具备更强的大赛经验和身体对抗能力，面对韩国防线有体能和战术优势。\n3. **韩国进攻效率受限**：韩国近10场主场比赛得失球不超过2球的场次达7场（E005），说明其进攻节奏偏慢、破局能力有限。在世界杯小组赛首轮，这种慢热特点容易让捷克掌控节奏。韩国若先丢球，将陷入困境——其落后情况下客场输球率100%（E006），而捷克在领先时大概率能守住胜果。\n4. **大赛经验与阵容深度**：捷克队中多名球员效力于五大联赛，阵容整体性强；韩国核心孙兴慜虽经验丰富，但已年过33岁，且近期友谊赛表现平淡。捷克在世界杯首轮通常以稳为主，利用身体和战术纪律压制对手的可能性更高。\n\n【引用】E001, E003, E004, E005, E006",
+        "speaker": "分析师3",
+        "target": "",
+        "action": "",
+        "counter_challenge": false
+      },
+      {
+        "role": "assistant",
+        "content": "【预测】胜方：捷克 | 比分：1-0 | 信心：6/10\n【论点】\n1. **双方状态对比，捷克稳定性更优**：两队近期都保持连胜（E001、E003），但韩国曾0-4惨败科特迪瓦（E001），暴露出防守端在强对抗下的脆弱性。捷克近6场连胜且仅失2球（E003），防守体系更为稳固。从数据趋势看，捷克的攻守平衡优于韩国。\n2. **韩国主场进球效率偏低**：韩国近10场主场比赛得失球不超过2球的场次达7场（E005），说明其进攻端在主场反而偏向低产，难以打出高比分。面对捷克这种擅长身体对抗和快速转换的欧洲球队，韩国若无法早早破门，将陷入阵地战困境，而捷克有能力利用韩国防线失误一击致命。\n3. **历史交锋参考价值有限，但捷克当前状态占优**：2016年友谊赛韩国2-1胜捷克（历史战绩），但距今已9年，阵容和战术体系完全不同。捷克近期主场8胜2平不败（E004），且近10场正赛主场仅失2球，这种主场防守硬度对韩国是严峻考验。韩国在落后情况下客场输球率100%（E006），而捷克同样有此数据（E007），但本场捷克是名义上的主队，更有利于其控制比赛节奏。\n\n【引用】E001, E003, E004, E005, E006, E007",
+        "speaker": "分析师4",
+        "target": "",
+        "action": "",
+        "counter_challenge": false
+      },
+      {
+        "role": "assistant",
+        "content": "【预测】胜方：捷克 | 比分：2-0 | 信心：6/10\n【论点】\n1. **赛程与体能分析**：本场是小组赛第一轮，双方体能储备相当，但捷克近期6连胜（E003），且近10场正赛主场8胜2平（E004），展现出稳定的竞技状态和主场统治力。韩国虽也4胜（E001），但对手实力偏弱，且曾0-4惨败科特迪瓦，暴露出防守端在高强度对抗下的系统性漏洞。捷克作为欧洲球队，身体对抗和战术纪律性更强，在世界杯首战这种需要快速进入状态的比赛中更占优势。\n2. **攻防效率与战术匹配**：韩国近10场主场比赛得失球不超过2球的场次达7场（E005），说明其进攻效率有限，难以在高水平防守下持续制造威胁。捷克则拥有绍切克、希克等在欧洲顶级联赛历练的核心球员，攻防转换速度快。韩国若无法早早领先，将陷入阵地战困境——而韩国在落后情况下客场输球率100%（E006），捷克在落后情况下客场输球率100%（E007），但本场捷克是名义上的客队，实际比赛在中立场地进行，捷克的防守稳定性（近6场仅失2球，E003）使其更不容易先丢球。\n3. **历史交锋参考价值有限**：双方唯一一次交手是2016年友谊赛，韩国客场2-1获胜。但9年过去，两队阵容和战术体系已大幅变化，该场次参考价值极低。捷克近年欧洲足球整体水平提升明显，且世界杯首战向来注重稳守反击，捷克有能力利用韩国防线的脆弱性（0-4负科特迪瓦）取得领先，并守住胜果。\n【引用】E001, E003, E004, E005, E006, E007",
+        "speaker": "分析师5",
+        "target": "",
+        "action": "",
+        "counter_challenge": false
+      }
+    ]
+  ],
+  "predictions": {
+    "分析师1": [
+      {
+        "winner": "捷克",
+        "score": "2-0",
+        "confidence": 6,
+        "key_factors": []
+      }
+    ],
+    "分析师2": [
+      {
+        "winner": "捷克",
+        "score": "2-1",
+        "confidence": 5,
+        "key_factors": []
+      }
+    ],
+    "分析师3": [
+      {
+        "winner": "捷克",
+        "score": "2-0",
+        "confidence": 6,
+        "key_factors": []
+      }
+    ],
+    "分析师4": [
+      {
+        "winner": "捷克",
+        "score": "1-0",
+        "confidence": 6,
+        "key_factors": []
+      }
+    ],
+    "分析师5": [
+      {
+        "winner": "捷克",
+        "score": "2-0",
+        "confidence": 6,
+        "key_factors": []
+      }
+    ]
+  },
+  "prediction_chains": {
+    "分析师1": "📌 第1次(立场)：捷克 2-0 (信心6/10)",
+    "分析师2": "📌 第1次(立场)：捷克 2-1 (信心5/10)",
+    "分析师3": "📌 第1次(立场)：捷克 2-0 (信心6/10)",
+    "分析师4": "📌 第1次(立场)：捷克 1-0 (信心6/10)",
+    "分析师5": "📌 第1次(立场)：捷克 2-0 (信心6/10)"
+  },
+  "evidence_pool": [
+    {
+      "id": "E001",
+      "content": "[有利情报·韩国] 韩国6场比赛4胜0平，状态出色。",
+      "source": "local",
+      "confidence": 0.9,
+      "discovered_by": "本地池",
+      "shared": true,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    {
+      "id": "E002",
+      "content": "[有利情报·韩国] 韩国本赛季近10个主场比赛，在领先的情况下最终主场赢球率达100%。",
+      "source": "local",
+      "confidence": 0.9,
+      "discovered_by": "本地池",
+      "shared": true,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    {
+      "id": "E003",
+      "content": "[有利情报·捷克] 捷克6场比赛连胜，状态极佳。",
+      "source": "local",
+      "confidence": 0.9,
+      "discovered_by": "本地池",
+      "shared": true,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    {
+      "id": "E004",
+      "content": "[有利情报·捷克] 捷克近10场正赛主场8胜2平0负，表现出色。",
+      "source": "local",
+      "confidence": 0.9,
+      "discovered_by": "本地池",
+      "shared": true,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    {
+      "id": "E005",
+      "content": "[不利情报·韩国] 韩国近10场主场比赛得失球不超过2球的场次达到7场。",
+      "source": "local",
+      "confidence": 0.9,
+      "discovered_by": "本地池",
+      "shared": true,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    {
+      "id": "E006",
+      "content": "[不利情报·韩国] 韩国本赛季近10个客场比赛，在落后的情况下最终客场输球率达100%。",
+      "source": "local",
+      "confidence": 0.9,
+      "discovered_by": "本地池",
+      "shared": true,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    {
+      "id": "E007",
+      "content": "[不利情报·捷克] 捷克本赛季近10个客场比赛，在落后的情况下最终客场输球率达100%。",
+      "source": "local",
+      "confidence": 0.9,
+      "discovered_by": "本地池",
+      "shared": true,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    {
+      "id": "E008",
+      "content": "Barbora Krejčíková - Wikipedia\nBarbora Krejčíková is a Czech professional tennis player. She has been ranked as high as world No. 2 in singles and world No. 1 in doubles by the WTA.",
+      "source": "research",
+      "confidence": 0.7,
+      "discovered_by": "统一检索",
+      "shared": true,
+      "title": "Barbora Krejčíková - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Barbora_Krejčíková",
+      "summary": "Barbora Krejčíková is a Czech professional tennis player. She has been ranked as high as world No. 2 in singles and world No. 1 in doubles by the WTA."
+    },
+    {
+      "id": "E009",
+      "content": "Sweden U21 vs Italy U21 Prediction and Betting Tips | March 31st 2026\nMar 29, 2026 · Italy win: 2.51 oods on msport.com Goals (Over/Under): Under 2.5 goals--Both teams have relatively low average goals per match (2.00 for ...",
+      "source": "research",
+      "confidence": 0.7,
+      "discovered_by": "统一检索",
+      "shared": true,
+      "title": "Sweden U21 vs Italy U21 Prediction and Betting Tips | March 31st 2026",
+      "url": "https://www.facebook.com/SportskeedaFootball/posts/sweden-u21-vs-italy-u21-prediction-and-betting-tips-march-31st-2026-read-more-on/1377604077736938/",
+      "summary": "Mar 29, 2026 · Italy win: 2.51 oods on msport.com Goals (Over/Under): Under 2.5 goals--Both teams have relatively low average goals per match (2.00 for ..."
+    },
+    {
+      "id": "E010",
+      "content": "Czech Republic v Denmark results, H2H stats | Football - Flashscore Czech Republic v Denmark statistics and results AD Les jeux d’argent et de hasard peuvent être dangereux : pertes d’argent, conflits familiaux, addiction… Retrouvez nos conseils sur www.joueurs-info-service.fr (09-74-75-13-13, appel non surtaxé) 18+ | Erlaubtes Glücksspiel gemäß der Whitelist | Suchtrisiken | Hilfe unter buwei.de 18+. Verantwortungsbewusst wetten. 18+ Jogue com responsabilidade 21+ Участь в азартних іграх може викликати ігрову залежність. Дотримуйтеся правил (принципів) відповідальної гри Loading... 21+ | COMPETENT REGULATOR EEEP | RISK OF ADDICTION & LOSS OF PROPERTY | KETHEA HELPLINE: 210 9237777 | PLAY RESPONSIBLY & SAFELY | Les jeux d’argent et de hasard peuvent être dangereux : pertes d’argent, conflits familiaux, addiction… Retrouvez nos conseils sur www.joueurs-info-service.fr (09-74-75-13-13, appel non surtaxé) 18+ | Erlaubtes Glücksspiel gemäß der Whitelist | Suchtrisiken | Hilfe unter buwei.de 18+. Verantwortungsbewusst wetten. 18+ Jogue com responsabilidade 21+ Участь в азартних іграх може викликати ігрову залежність. Дотримуйтеся правил (принципів) відповідальної гри Do you want to withdraw your consent to display betting ads? Yes, change settings",
+      "source": "research",
+      "confidence": 0.7,
+      "discovered_by": "统一检索",
+      "shared": true,
+      "title": "Czech Republic v Denmark results, H2H stats | Football - Flashscore.com",
+      "url": "https://www.flashscore.com/match/football/czech-republic-6LHwBDGU/denmark-0KUdxQVi/",
+      "summary": "Follow Czech Republic v Denmark results, h2h statistics, latest results, news and more information on Flashscore."
+    },
+    {
+      "id": "E011",
+      "content": "Czechia vs Ireland live score, H2H and lineups - Sofascore\nMar 26, 2026 · Czechia vs Ireland live score, H2H results, standings and prediction · Details · Lineups · Statistics · Commentary · Matches · Knockout · Media.",
+      "source": "research",
+      "confidence": 0.7,
+      "discovered_by": "统一检索",
+      "shared": true,
+      "title": "Czechia vs Ireland live score, H2H and lineups - Sofascore",
+      "url": "https://www.sofascore.com/football/match/czechia-ireland/TTbsoUb",
+      "summary": "Mar 26, 2026 · Czechia vs Ireland live score, H2H results, standings and prediction · Details · Lineups · Statistics · Commentary · Matches · Knockout · Media."
+    },
+    {
+      "id": "E012",
+      "content": "Huntsville Havoc Shop Auctions & Raffles Download Our App Havoc Announce 2026 Protected List 2025-26 Yard Sale Scheduled For May 2nd Havoc Fall to Ice Bears, Concluding the 25-26 Season Havoc Battle Hard, but Ice Bears Win 5-4 in First Playoff Matchup Huntsville Havoc Announce 2025-26 Playoff Roster Havoc Calm the Storm, Sweep Quad City in 6-1 Season Finale",
+      "source": "research",
+      "confidence": 0.7,
+      "discovered_by": "统一检索",
+      "shared": true,
+      "title": "Huntsville Havoc",
+      "url": "https://www.huntsvillehavoc.com/",
+      "summary": "Havoc Fall to Ice Bears, Concluding the 25-26 Season · Havoc Battle Hard, but Ice Bears Win 5-4 in First Playoff Matchup · Huntsville Havoc Announce 2025-26 ..."
+    },
+    {
+      "id": "E013",
+      "content": "Jenny Yang - Novo Nordisk | 领英 跳到主要内容 登录帐号，即可查看Jenny的完整档案 Jenny可以把您引荐给诺和诺德的 10+ 位会员 邮箱或手机 密码 显示 忘记密码 登录 使用邮箱登录 或 没有领英帐号？立即加入 点击“继续加入或登录”，即表示您同意遵守领英的《用户协议》、《隐私政策》及《Cookie 政策》。 Jenny Yang 登录帐号，即可查看Jenny的完整档案 Jenny可以把您引荐给诺和诺德的 10+ 位会员 邮箱或手机 密码 显示 忘记密码 登录 使用邮箱登录 或 没有领英帐号？立即加入 点击“继续加入或登录”，即表示您同意遵守领英的《用户协议》、《隐私政策》及《Cookie 政策》。 中国 北京市 联系方式 登录帐号，即可查看Jenny的完整档案 Jenny可以把您引荐给诺和诺德的 10+ 位会员 邮箱或手机 密码 显示 忘记密码 登录 使用邮箱登录 或 没有领英帐号？立即加入 点击“继续加入或登录”，即表示您同意遵守领英的《用户协议》、《隐私政策》及《Cookie 政策》。 4189 位关注者 500+ 位好友 查看共同好友 查看与Jenny的共同好友 Jenny可以把您引荐给诺和诺德的 10+ 位会员 邮箱或手机 密码 显示 忘记密码 登录 使用邮箱登录 或 没有领英帐号？立即加入 点击“继续加入或登录”，即表示您同意遵守领英的《用户协议》、《隐私政策》及《Cookie 政策》。 加入领英，查看档案 发消息 登录帐号，即可查看Jenny的完整档案 Jenny可以把您引荐给诺和诺德的 10+ 位会员 邮箱或手机 密码 显示 忘记密码 登录 使用邮箱登录 或 没有领英帐号？立即加入 点击“继续加入或登录”，即表示您同意遵守领英的《用户协议》、《隐私政策》及《Cookie 政策》。 Novo Nordisk The University of Chicago Booth School of Business 举报此会员档案 关于 I lead External Innovation for APAC, identifying, evaluating, and shaping partnerships… 展开 欢迎回来！ 邮箱或手机 密码 显示 忘记密码 登录 或 点击“继续加入或登录”，即表示您同意遵守领英的《用户协议》、《隐私政策》及《Cookie 政策》。 没有领英帐号？立即加入 动态 Follow 登录帐号，即可查看Jenny的完整档案 Jenny可以把您引荐给诺和诺德的 10+ 位会员 邮箱或手机 密码 显示 忘记密码 登录 使用邮箱登录 或 没有领英帐号？立即加入 点击“继续加入或登录”，即表示您同意遵守领英的《用户协议》、《隐私政策》及《Cookie 政策》。 I’m happy to share that I have started a new professional chapter as Science Manager in the Biopharma Processing Aids Venture within Ventures &… I’m happy to share that I have started a new professional chapter as Science Manager in the Biopharma Processing Aids Venture within Ventures &… Jenny Yang点赞 Yesterday, I had the pleasure of joining Commissioner Ekaterina Zaharieva, Christian Sinding of EQT Group and Hermann Hauser at the EIC Summit in… Yesterday, I had the pleasure of joining Commissioner Ekaterina Zaharieva, Christian Sinding of EQT Group and Hermann Hauser at the EIC Summit in… Jenny Yang点赞 Job news! From peptides to enzymes! After eight years at Novo Nordisk, I am moving into the world of biosolutions. On 1 July I will be joining the… Job news! From peptides to enzymes! After eight years at Novo Nordisk, I am moving into the world of biosolutions. On 1 July I will be joining the… Jenny Yang点赞 立即加入，查看全部动态 工作经历和教育背景 Novo Nordisk **** ** ******** *********** **** ******* **** ******** * **** ** ******* ********* **** ******* *** *** ********** ******* ********* *** ********** ** ******* ***** ****** ** ******** ****** ** ******** ************** * *** undefined undefined ******** ********** ****** ** ********** * *** ********** ******** 查看Jenny的完整工作经历 查看他们的职位头衔、任职时间等。 登录 欢迎回来！ 邮箱或手机 密码 显示 忘记密码 登录 或 点击“继续加入或登录”，即表示您同意遵守领英的《用户协议》、《隐私政策》及《Cookie 政策》。 没有领英帐号？立即加入 或 点击“继续加入或登录”，即表示您同意遵守领英的《用户协议》、《隐私政策》及《Cookie 政策》。 资格认证 Clinical study conduct and management UC Berkeley Extension Negotiation Mastery Harvard Business School Jenny的更多动态 I’m pleased to share that I have been promoted to Group Vice President and Head of Obesity and Cardiometabolic Research at Novo Nordisk. This role… I’m pleased to share that I have been promoted to Group Vice President and Head of Obesity and Cardiometabolic Research at Novo Nordisk. This role… Jenny Yang点赞 A couple of weeks ago, I had the pleasure of attending and chairing the DDF Summit (Drug Delivery & Formulation) 2026 in Berlin. The meeting brought… A couple of weeks ago, I had the pleasure of attending and chairing the DDF Summit (Drug Delivery & Formulation) 2026 in Berlin. The meeting brought… Jenny Yang点赞 Today, we celebrate our CEO, Kasim Kutay, on his appointment as a Knight of the Order of the Dannebrog. This recognition reflects a sustained… Today, we celebrate our CEO, Kasim Kutay, on his appointment as a Knight of the Order of the Dannebrog. This recognition reflects a sustained… Jenny Yang点赞 365 days. Millions of patients counting on science. And one incredible team making it happen. Today marks exactly one year since I stepped into my… 365 days. Millions of patients counting on science. And one incredible team making it happen. Today marks exactly one year since I stepped into my… Jenny Yang点赞 The Forbes 30 Under 30 Asia 2026 list is out — and it was a real privilege to serve again as a judge (Healthcare & Science category). Reviewing… The Forbes 30 Under 30 Asia 2026 list is out — and it was a real privilege to serve again as a judge (Healthcare & Science category). Reviewing… Jenny Yang点赞 Thrilled to announce that the 2026 BFC-Cytiva Global Healthcare Summer BD & Investment Conference will take place on Sunday, June 21st, 2026 at Omni… Thrilled to announce that the 2026 BFC-Cytiva Global Healthcare Summer BD & Investment Conference will take place on Sunday, June 21st, 2026 at Omni… Jenny Yang点赞 They say time flies when you’re having fun, and that has certainly been my experience this first month at #ValoHealth as CSO. A few reflections… They say time flies when you’re having fun, and that has certainly been my experience this first month at #ValoHealth as CSO. A few reflections… Jenny Yang点赞 Drug development is hard, but moments like this make it all worthwhile. Three heavily pretreated patients…",
+      "source": "research",
+      "confidence": 0.7,
+      "discovered_by": "统一检索",
+      "shared": true,
+      "title": "Jenny Yang - Head of External Innovation APAC | PhD | MBA - 领英",
+      "url": "https://cn.linkedin.com/in/jenny-yang-41814149",
+      "summary": "Head of External Innovation APAC | PhD | MBA | External Innovation & Business Development • R&D Leadership • Scientific Evaluation • Strategic Partnerships ..."
+    },
+    {
+      "id": "E014",
+      "content": "Contact Us | The Hershey Company Skip to main content Contact Us The Hershey Company is dedicated to answering your questions. Have a question about ingredients or you can’t find a specific Hershey’s product? Check our FAQs section or find in-store products with our Product Locator. Still need something? You can always email or call us. Email Us English Français Español português 日本語 한국어 中国的 English Français Español português 日本語� 한국어�� 中国的 USA 800-468-1714(CALL) INDIA 1800-221-456 BRAZIL 0800-70-77-782 MEXICO 001-800-956-9964(Phone)+52 1 3316052614 (Whatsapp) CANADA 800-468-1714 CHINA 400-920-2727 Please complete the fields highlighted below. Location Subject of your message select a subject Careers CCPA Request Company Information/History Coupons Donations Ideas Media New Business Questions About Ingredients Gluten Privacy Policy/Ad and Cookie Policy Product Feedback Contest/Sweepstake Feedback Baking Questions and Comments Where to Buy Choose a Topic Allergens Gluten Kosher Zero Sugar Responsible Sourcing Other Name of brand or promotion PERSONAL INFORMATION This form is intended for media members seeking comments/statements from The Hershey Company. PERSONAL INFORMATION Please specify a valid E-mail address. COMMENTS* Media Organization If applicable, please provide your deadline Please let us know if we have your permission to send a short customer satisfaction survey to your email.* Yes, send it to me No, do not send it to me SUBMIT Your message has been submitted successfully. Hershey values your privacy and is committed to protecting your personal data. To exercise your rights under the California Consumer Privacy Act, visit our Consumer Privacy Portal here. For more information about our data practices, please see the privacy policy published on our website. We greatly appreciate your interest in joining our team. To search for current employment opportunities and to apply online, you can visit our Careers page. We wish you the best of luck on your career search! Please click here for Hershey’s Privacy Policy / Ad & Cookie Policy. You can find a lot of information about our company here. We encourage you to poke around the site to find an abundance of information about the company and our vision for the future, plus read the latest press releases on what’s new. Nothing brings people together like sweet treats. Visit our baking site to search for and find all our delicious recipes, and check out our baking resources page for baking tips, tricks, and troubleshooting information. We appreciate your interest in our products. We do not send coupons upon request. From time to time, moving/saving coupons might be offered in newspapers, retail flyers, and in stores. The Hershey Company is dedicated to supporting the communities where our employees live and work. Monetary and product donations are made to a variety of organizations across the globe, with a particular focus on providing basic nutrition to children to help them learn and grow. Unfortunately, due to the high volume of requests we receive, we are unable to offer assistance to every organization that contacts us. We must limit our support to groups who align with our guidelines for contributions. If you believe your non-profit organization aligns with our contribution guidelines, click here to visit our donation portal. We have provided a list of current products that have been fully evaluated and qualify as gluten free using standards proposed by the US Food and Drug Administration (FDA). This list of gluten-free confections is available by clicking here. Please note, this list is not all inclusive as we have other products that do not have gluten containing ingredients. The best way to determine if our products contain a gluten ingredient is to read our product label. This label includes an accurate, current listing of the ingredients in our products. Because, on occasion, the list of ingredients can change, we strongly encourage you to check the ingredient label on the package each time before you make a purchase. If you would like us to check a specific item for you, please complete the form below. We are always interested in hearing innovative ideas from our fans! Just head to our Ideas website to submit any suggestions you might have. We appreciate your interest in doing business with us! Hershey is now using the Diversity Information Resources’ database to find certified diverse suppliers. If you are interested in doing business with Hershey as a diverse supplier, please go to Diversity Information Resources' website to register in their database. Registration is free, and enables suppliers to be contacted by Diversity Information Resources’ wide range of corporate clients. To learn more about our Supplier Diversity program, click here. We’d love to help you find your favorite items. If you haven’t already, you may want to check out our online product locator, which lists many of our hard-to-find products. If you still need some help, fil…",
+      "source": "research",
+      "confidence": 0.7,
+      "discovered_by": "统一检索",
+      "shared": true,
+      "title": "Contact Us | The Hershey Company",
+      "url": "https://www.thehersheycompany.com/en_us/home/contact-us.html",
+      "summary": "... form below. We are always interested in hearing innovative ideas from our fans! Just head to our Ideas website to submit any suggestions you might have. We ..."
+    },
+    {
+      "id": "E015",
+      "content": "Instagram",
+      "source": "research",
+      "confidence": 0.7,
+      "discovered_by": "统一检索",
+      "shared": true,
+      "title": "Welcome to the Lee Kang-in magic show ㅤ #AsianQualifiers",
+      "url": "https://www.instagram.com/reel/DKvjIDWuW78/",
+      "summary": "Jun 10, 2025 ... ... recent history, but Korea enters the tournament far from perfect shape. Korea at their best can meet head to head ... Poor form, most ..."
+    },
+    {
+      "id": "E016",
+      "content": "Walter Tools » Engineering Kompetenz",
+      "source": "research",
+      "confidence": 0.7,
+      "discovered_by": "统一检索",
+      "shared": true,
+      "title": "Walter Tools",
+      "url": "https://www.walter-tools.com/en-us",
+      "summary": "韩国 (南韩), 荷兰, 黑山共和国, 洪都拉斯, 吉尔吉斯斯坦, 几内亚, 加拿大, 加纳, 捷克共和国 ... head drill More. Find Your Tools. Walter Online Catalogue. Walter ..."
+    },
+    {
+      "id": "E017",
+      "content": "Submit a Question | HERSHEY'S CHOCOLATE WORLD Skip to main content Today's Hershey, PA Hours: Submit a Question Use the form below to get in touch with us. Please complete the fields highlighted below. Location* Subject of your message* select a subject Accessibility Careers Food & Bakery General Inquiries Group Sales Lost & Found Parking Shopping and Merchandise Feedback Visitor Feedback CCPA Request Privacy Policy/Ad and Cookie Policy Choose a Topic Allergens Gluten Kosher Zero Sugar Responsible Sourcing Other Name of brand or promotion CONTACT INFORMATION This form is intended for media members seeking comments/statements from The Hershey Company. CONTACT INFORMATION Please specify a valid E-mail address. COMMENTS* Media Organization If applicable, please provide your deadline Please let us know if we have your permission to send a short customer satisfaction survey to your email.* Yes, send it to me No, do not send it to me SUBMIT Your message has been submitted successfully. Hershey values your privacy and is committed to protecting your personal data. To exercise your rights under the California Consumer Privacy Act, visit our Consumer Privacy Portal here. For more information about our data practices, please see the privacy policy published on our website. We greatly appreciate your interest in joining our team. To search for current employment opportunities and to apply online, you can visit our Careers page. We wish you the best of luck on your career search! Please click here for Hershey’s Privacy Policy / Ad & Cookie Policy. You can find a lot of information about our company here. We encourage you to poke around the site to find an abundance of information about the company and our vision for the future, plus read the latest press releases on what’s new. Nothing brings people together like sweet treats. Visit our baking site to search for and find all our delicious recipes, and check out our baking resources page for baking tips, tricks, and troubleshooting information. We appreciate your interest in our products. We do not send coupons upon request. From time to time, moving-saving coupons might be offered in newspapers, retail flyers, and in stores. The Hershey Company is dedicated to supporting the communities where our employees live and work. Monetary and product donations are made to a variety of organizations across the globe, with a particular focus on providing basic nutrition to children to help them learn and grow. Unfortunately, due to the high volume of requests we receive, we are unable to offer assistance to every organization that contacts us. We must limit our support to groups who align with our guidelines for contributions. If you believe your non-profit organization aligns with our contribution guidelines, click here to visit our donation portal. We have provided a list of current products that have been fully evaluated and qualify as gluten free using standards proposed by the US Food and Drug Administration (FDA). This list of gluten-free confections is available by clicking here. Please note, this list is not all inclusive as we have other products that do not have gluten containing ingredients. The best way to determine if our products contain a gluten ingredient is to read our product label. This label includes an accurate, current listing of the ingredients in our products. Because, on occasion, the list of ingredients can change, we strongly encourage you to check the ingredient label on the package each time before you make a purchase. If you would like us to check a specific item for you, please complete the form below. We are always interested in hearing innovative ideas from our fans! Just head to our Ideas website to submit any suggestions you might have. We appreciate your interest in doing business with us! Hershey is now using the Diversity Information Resources’ database to find certified diverse suppliers. If you are interested in doing business with Hershey as a diverse supplier, please go to Diversity Information Resources' website to register in their database. Registration is free, and enables suppliers to be contacted by Diversity Information Resources’ wide range of corporate clients. To learn more about our Supplier Diversity program, click here. We’d love to help you find your favorite items. If you haven’t already, you may want to check out our online product locator, which lists many of our hard-to-find products. If you still need some help, fill out our form below to let us know which products you are looking for and we will do our best to help you track them down. As a company, we have strict procedures to prevent crossover of allergens into other products that do not contain the allergen. Click here to learn more about our allergen labeling practices. Please complete the form below if you have a specific question not answered on our allergen webpage. We have provided a list of current products that have been fully evaluated and qualify as gluten-…",
+      "source": "research",
+      "confidence": 0.7,
+      "discovered_by": "统一检索",
+      "shared": true,
+      "title": "Submit a Question - Hershey's Chocolate World",
+      "url": "https://www.chocolateworld.com/contact-us/submit-a-question.html",
+      "summary": "Use the form below to get in touch with us. Please complete the fields ... Just head to our Ideas website to submit any suggestions you might have. We ..."
+    },
+    {
+      "id": "E018",
+      "content": "Czech Republic national football team - Wikipedia\nrepresents the Czech Republic in men's international football. The team is controlled by the Football Association of the Czech Republic (FAČR).",
+      "source": "research",
+      "confidence": 0.7,
+      "discovered_by": "统一检索",
+      "shared": true,
+      "title": "Czech Republic national football team - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Czech_Republic_national_football_team",
+      "summary": "represents the Czech Republic in men's international football. The team is controlled by the Football Association of the Czech Republic (FAČR)."
+    },
+    {
+      "id": "E019",
+      "content": "KEY 释义| 柯林斯英语词典\nA key is a specially shaped piece of metal that you place in a lock and turn in order to open or lock a door, or to start or stop the engine of a vehicle.",
+      "source": "research",
+      "confidence": 0.7,
+      "discovered_by": "统一检索",
+      "shared": true,
+      "title": "KEY 释义| 柯林斯英语词典",
+      "url": "https://www.collinsdictionary.com/zh/dictionary/english/key",
+      "summary": "A key is a specially shaped piece of metal that you place in a lock and turn in order to open or lock a door, or to start or stop the engine of a vehicle."
+    },
+    {
+      "id": "E020",
+      "content": "TikTok - Make Your Day",
+      "source": "research",
+      "confidence": 0.7,
+      "discovered_by": "统一检索",
+      "shared": true,
+      "title": "Vlad's Stunning Start in the World Baseball Classic | TikTok",
+      "url": "https://www.tiktok.com/@bluejays/video/7614958027149561095",
+      "summary": "Mar 8, 2026 · As one of the key players representing his nation in the WBC ... 韓國隊率先取得4:0領先 #捷克 #韓國 ##Czech Republic czechrepubliclic #Korea."
+    },
+    {
+      "id": "E021",
+      "content": "Taiwan, competing as Chinese Taipei, will not be moving forward to ...\nMar 9, 2026 · Taiwan, competing as Chinese Taipei, will not be moving forward to the quarterfinals in Miami. It comes after the result of South Korea's match ...",
+      "source": "research",
+      "confidence": 0.7,
+      "discovered_by": "统一检索",
+      "shared": true,
+      "title": "Taiwan, competing as Chinese Taipei, will not be moving forward to ...",
+      "url": "https://www.facebook.com/taiwanplusnews/posts/taiwan-competing-as-chinese-taipei-will-not-be-moving-forward-to-the-quarterfina/945742224631853/",
+      "summary": "Mar 9, 2026 · Taiwan, competing as Chinese Taipei, will not be moving forward to the quarterfinals in Miami. It comes after the result of South Korea's match ..."
+    },
+    {
+      "id": "E022",
+      "content": "刘亦浚- 咨询顾问｜创投｜家族办公室｜前麦肯锡| 领英 - LinkedIn\n咨询顾问｜创投｜家族办公室｜前麦肯锡· Public Health strategist dedicated to improving quality of life, societal efficiencies, and ethics.",
+      "source": "research",
+      "confidence": 0.7,
+      "discovered_by": "统一检索",
+      "shared": true,
+      "title": "刘亦浚- 咨询顾问｜创投｜家族办公室｜前麦肯锡| 领英 - LinkedIn",
+      "url": "https://www.linkedin.com/in/adolphuslau/zh-cn",
+      "summary": "咨询顾问｜创投｜家族办公室｜前麦肯锡· Public Health strategist dedicated to improving quality of life, societal efficiencies, and ethics."
+    }
+  ],
+  "arbitrator_verdict": {
+    "role": "assistant",
+    "content": "【共识】是\n【理由】五位分析师均预测捷克获胜，且核心论据高度一致：韩国进攻效率低（E005）、防守脆弱（0-4负科特迪瓦）、先丢球后难以逆转（E006），而捷克防守稳固（近6场仅失2球）、主场表现强势（E004）。虽然比分预测有细微差异（2-0、2-1、1-0），但这是对比赛进程的合理分歧，并非根本性冲突——所有分析师都认为捷克将凭借防守优势和先发制人取胜，不存在“防守制胜”与“进攻碾压”这类根本对立。因此，共识已达成。",
+    "speaker": "仲裁者"
+  },
+  "verdict": null,
+  "final_prediction": {
+    "winner": "捷克",
+    "score": "2-0",
+    "confidence": 6,
+    "key_factors": []
+  },
+  "summary": {
+    "role": "assistant",
+    "content": "## 最终预测\n胜方：捷克 | 比分：2-0 | 信心：6/10\n\n## 关键共识\n1. **捷克状态与防守更优**：捷克近6场全胜且仅失2球（E003），防守体系稳固；韩国虽4胜但曾0-4惨败科特迪瓦（E001），防守存在明显漏洞。\n2. **韩国进攻效率受限**：韩国近10场主场7场得失球≤2（E005），破局能力有限，难以对捷克构成持续威胁。\n3. **先丢球方大概率输球**：韩国在落后时客场输球率100%（E006），捷克同样有此数据（E007），但捷克防守更稳、更不易先失球，因此更可能掌控比赛。\n\n## 核心分歧\n- **比分细节**：分析师1/3/5预测2-0，分析师2预测2-1，分析师4预测1-0。分歧源于对韩国能否取得进球的判断，但均认为捷克净胜1-2球，属于合理范围，非根本对立。\n\n## 决定性因素\n1. **防守稳定性**：捷克近6场仅失2球，韩国则暴露出防线在强对抗下的脆弱性（0-4负科特迪瓦）。捷克更可能零封或仅失1球。\n2. **先发制人能力**：韩国进攻低效且落后即输，捷克凭借更稳定的防守和快速转换，更可能率先破门并守住优势。",
+    "speaker": "总结分析师"
+  }
+}

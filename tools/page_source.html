@@ -1,0 +1,1156 @@
+<!DOCTYPE html>
+<html lang=zh>
+    <head>
+        <meta charset=utf-8>
+        <meta http-equiv=X-UA-Compatible content="IE=edge">
+        <meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0">
+        <meta name=referrer content=origin-when-cross-origin>
+        <meta name=format-detection content="telephone=no">
+        <meta name=x5-orientation content=portrait>
+        <meta http-equiv=x-dns-prefetch-control content=on>
+        <title>百度体育直播 韩国 vs 捷克 2026-06-12 10:00_百度体育</title>
+        <meta name=description content="百度体育聚合全网体育赛事信息，覆盖最新的赛事资讯、数据、直播等内容，主要包括NBA、CBA、中超、五大联赛、欧冠、LPL等赛事…">
+        <link rel="shortcut icon" href=https://www.baidu.com/favicon.ico type=image/x-icon>
+        <link rel=dns-prefetch href=https://tiyu.baidu.com>
+        <link rel=dns-prefetch href=https://psstatic.cdn.bcebos.com>
+        <link rel=dns-prefetch href=https://code.bdstatic.com>
+        <script>
+            var logId = "";
+        </script>
+        <script src=https://code.bdstatic.com/npm/spy-client@2.1.12/dist/spy-client.min.js crossorigin=anonymous></script>
+        <script src=https://code.bdstatic.com/npm/spy-client@2.1.12/dist/spy-head.min.js crossorigin=anonymous></script>
+        <script>
+            var pid = '4_7';
+            var spy = new SpyClient({
+                pid,
+                lid: logId,
+                sample: 0.1
+            });
+
+            // 指定san框架用于区分spy打点
+            window.__FRAMEWORK__ = 'san';
+
+            // 禁止浏览器刷新后自动滚动到上次浏览的位置
+            if ('scrollRestoration'in history) {
+                history.scrollRestoration = 'manual';
+            }
+        </script>
+        <link href=https://ms.bdstatic.com/se/tiyu-wise/static/san/css/vendors.792bd713.css rel=stylesheet>
+        <link href=https://ms.bdstatic.com/se/tiyu-wise/static/san/css/livedetail.e23393e6.css rel=stylesheet>
+        <script>
+            "use strict";
+            ( () => {
+                // ../src/views/inlineGlobalScript/globalUtil.ts
+                var ONLINE_HOSTS = ["tiyu.baidu.com", "tiyu-fenji.baidu-int.com"];
+                function isOnlineHost(hostname) {
+                    try {
+                        const host = hostname || window.location.hostname;
+                        return ONLINE_HOSTS.indexOf(host) !== -1;
+                    } catch (e) {
+                        return false;
+                    }
+                }
+                var _extends = Object.assign ? Object.assign : function(target, ...sources) {
+                    for (let i = 0; i < sources.length; i++) {
+                        const source = sources[i];
+                        for (const key in source) {
+                            if (Object.prototype.hasOwnProperty.call(source, key)) {
+                                target[key] = source[key];
+                            }
+                        }
+                    }
+                    return target;
+                }
+                ;
+                function getViewportSize() {
+                    if (typeof window === "undefined") {
+                        return {
+                            width: 0,
+                            height: 0
+                        };
+                    }
+                    const doc = document && document.documentElement;
+                    return {
+                        width: window.innerWidth || doc && doc.clientWidth || 0,
+                        height: window.innerHeight || doc && doc.clientHeight || 0
+                    };
+                }
+                function getUserAgentInfo() {
+                    var uaLower = navigator.userAgent.toLowerCase();
+                    var isIOS = uaLower.includes("iphone") || uaLower.includes("ipod") || uaLower.includes("ipad");
+                    var isAndroid = uaLower.includes("android");
+                    var isBaiduBox = uaLower.includes("baiduboxapp");
+                    var isBaiduBoxLite = /(lite|info) baiduboxapp/.test(uaLower);
+                    var isDarkMode = uaLower.includes("theme/dark");
+                    var platform = /Mobi|Android|iPhone/i.test(uaLower || "") ? "wise" : "pc";
+                    return {
+                        isIOS,
+                        isAndroid,
+                        isBaiduBox,
+                        isBaiduBoxLite,
+                        isDarkMode,
+                        platform
+                    };
+                }
+                function spyMsgHasVal(message, str) {
+                    if (typeof message !== "string" || typeof str !== "string")
+                        return 0;
+                    return message.toLowerCase().includes(str.toLowerCase()) ? 1 : 0;
+                }
+                function getQueryParams(urlStr) {
+                    const paramsObj = {};
+                    if (!urlStr)
+                        return paramsObj;
+                    try {
+                        const url = new URL(urlStr,window.location.origin);
+                        url.searchParams.forEach( (value, key) => {
+                            paramsObj[key] = value;
+                        }
+                        );
+                    } catch (e) {}
+                    return paramsObj;
+                }
+                function getSpyGroupName(group, isMajor2) {
+                    if (!isOnlineHost()) {
+                        return "test";
+                    }
+                    if (isMajor2) {
+                        return `${group}_major`;
+                    }
+                    return group;
+                }
+
+                // ../src/views/inlineGlobalScript/global.ts
+                var GLOBAL_KEY = "__GLOBAL__";
+                var g = window;
+                var spy = g.spy;
+                var __spyHead = g.__spyHead;
+                if (!g.requestIdleCallback) {
+                    g.requestIdleCallback = function(cb) {
+                        const start = Date.now();
+                        return setTimeout( () => {
+                            cb({
+                                didTimeout: false,
+                                timeRemaining() {
+                                    return Math.max(0, 50 - (Date.now() - start));
+                                }
+                            });
+                        }
+                        , 1);
+                    }
+                    ;
+                }
+                var uaInfo = getUserAgentInfo();
+                var queryParams = getQueryParams(window.location.href);
+                var pathname = window.location.pathname;
+                var isMajor = /major\//.test(pathname);
+                var timingSample = isMajor ? 1 : 0.5;
+                var framework = g.__FRAMEWORK__ || "atom";
+                var logId = g.logId || "";
+                var pid = g.pid || "";
+                if (__spyHead) {
+                    __spyHead.__common_dim = {
+                        tab: queryParams.tab,
+                        from: queryParams.from,
+                        pathname,
+                        isMajor,
+                        os: uaInfo.isAndroid ? "android" : uaInfo.isIOS ? "ios" : "unknown",
+                        appname: uaInfo.isBaiduBox ? uaInfo.isBaiduBoxLite ? "baiduboxlite" : "baiduboxapp" : "unknown",
+                        logId,
+                        framework,
+                        width: getViewportSize().width,
+                        height: getViewportSize().height
+                    };
+                    __spyHead.__common_info = {
+                        errorHref: window.location.href,
+                        referrer: document.referrer,
+                        logId,
+                        sessionId: Date.now()
+                    };
+                }
+                var RESOURCE_ERROR_TYPE = {
+                    DEFAULT: 1,
+                    BIG_IMG: 2,
+                    HTTP: 3
+                };
+                var mergeCommonData = (data={}) => {
+                    const dim = _extends({}, data.dim || {}, (__spyHead == null ? void 0 : __spyHead.__common_dim) || {});
+                    const info = _extends({}, data.info || {}, (__spyHead == null ? void 0 : __spyHead.__common_info) || {});
+                    return {
+                        dim,
+                        info
+                    };
+                }
+                ;
+                var shouldIgnore = (msg, list) => {
+                    return typeof msg === "string" && list.some( (item) => msg.includes(item));
+                }
+                ;
+                var initSpy = () => {
+                    if (!spy) {
+                        return;
+                    }
+                    const wrapResourceError = (type, extraDim={}) => (info) => {
+                        const base = {
+                            dim: _extends({
+                                resourceError: type
+                            }, extraDim),
+                            info
+                        };
+                        const {dim, info: finalInfo} = mergeCommonData(base);
+                        spy.sendExcept({
+                            group: getSpyGroupName("ssr-resource", isMajor),
+                            info: _extends({}, dim, finalInfo),
+                            dim
+                        });
+                    }
+                    ;
+                    spy.listenHttpResource(wrapResourceError(RESOURCE_ERROR_TYPE.HTTP, {
+                        httpResource: 1
+                    }));
+                    spy.listenBigImg(wrapResourceError(RESOURCE_ERROR_TYPE.BIG_IMG, {
+                        bigImg: 1,
+                        maxSize: 153600
+                    }));
+                    const perfMetrics = [{
+                        method: "listenTiming",
+                        group: "common",
+                        sample: timingSample
+                    }, {
+                        method: "listenLCP",
+                        group: "lcp"
+                    }, {
+                        method: "listenFID",
+                        group: "fid"
+                    }, {
+                        method: "listenTTI",
+                        group: "tti"
+                    }];
+                    perfMetrics.forEach( (item) => {
+                        const {method, group, sample} = item;
+                        if (typeof spy[method] === "function") {
+                            spy[method]( (metric) => {
+                                spy.sendPerf({
+                                    dim: __spyHead.__common_dim,
+                                    info: metric,
+                                    group: getSpyGroupName(group, isMajor),
+                                    sample: sample != null ? sample : timingSample
+                                });
+                            }
+                            );
+                        }
+                    }
+                    );
+                }
+                ;
+                var initSpyHead = () => {
+                    if (!__spyHead) {
+                        return;
+                    }
+                    const IGNORE_JS_ERRORS = ["Empty msg", "Script error", "Load failed", "Failed to fetch"];
+                    const IGNORE_RESOURCE_URLS = ["https://hm.baidu.com/hm.js"];
+                    __spyHead.init({
+                        pid,
+                        lid: logId,
+                        resourceError: {
+                            group: getSpyGroupName("ssr-resource", isMajor),
+                            sample: 0.2,
+                            handler: function(data) {
+                                var _a;
+                                if (shouldIgnore(((_a = data == null ? void 0 : data.info) == null ? void 0 : _a.msg) || "", IGNORE_RESOURCE_URLS)) {
+                                    return false;
+                                }
+                                const {dim, info} = mergeCommonData(data);
+                                data.dim = _extends({
+                                    resourceError: 1
+                                }, dim);
+                                data.info = _extends({
+                                    resourceError: 1
+                                }, info);
+                                return !(document && document.hidden === true);
+                            }
+                        },
+                        jsError: {
+                            group: getSpyGroupName("ssr-js", isMajor),
+                            sample: 0.1,
+                            handler: function(data) {
+                                var _a;
+                                const msg = ((_a = data == null ? void 0 : data.info) == null ? void 0 : _a.msg) || "";
+                                if (shouldIgnore(msg, IGNORE_JS_ERRORS)) {
+                                    return false;
+                                }
+                                const {dim, info} = mergeCommonData(data);
+                                data.dim = _extends({
+                                    jsError: 1,
+                                    timeout: spyMsgHasVal(msg, "timed out"),
+                                    failed: spyMsgHasVal(msg, "failed")
+                                }, dim);
+                                data.info = _extends({
+                                    jsError: 1
+                                }, info);
+                                return !(document && document.hidden === true);
+                            }
+                        },
+                        whiteScreenError: {
+                            sample: 1,
+                            group: "whiteScreen",
+                            selector: "body",
+                            subSelector: "#sfr-app",
+                            timeout: 6e3,
+                            handler: function(data) {
+                                if (data == null ? void 0 : data.info) {
+                                    data.info.errorHref = window.location.href;
+                                    data.info.referrer = document.referrer;
+                                }
+                            }
+                        }
+                    });
+                }
+                ;
+                initSpy();
+                initSpyHead();
+                var globalExport = {
+                    ONLINE_HOSTS,
+                    isOnlineHost,
+                    _extends,
+                    getViewportSize,
+                    getUserAgentInfo,
+                    spyMsgHasVal,
+                    getQueryParams,
+                    getSpyGroupName,
+                    uaInfo,
+                    queryParams,
+                    pathname,
+                    isMajor,
+                    timingSample
+                };
+                try {
+                    Object.defineProperty(g, GLOBAL_KEY, {
+                        value: globalExport,
+                        writable: false,
+                        configurable: false
+                    });
+                } catch (e) {
+                    g[GLOBAL_KEY] = globalExport;
+                }
+            }
+            )();
+        </script>
+    </head>
+    <body class="cos-pc  cos-h5  ">
+        <script>
+            // 百度统计
+            var _hmt = _hmt || [];
+            (function() {
+                var hm = document.createElement("script");
+                hm.src = "https://hm.baidu.com/hm.js?683d24730e43da058ee3a288d5f07d07";
+                var s = document.getElementsByTagName("script")[0];
+                s.parentNode.insertBefore(hm, s);
+            }
+            )();
+        </script>
+        <div id=sfr-app>
+            <div class="wa-tiyu-page-container c-response-container" style=-webkit-text-size-adjust:none>
+                <div class=wa-tiyu-home-container>
+                    <div id=app>
+                        <main>
+                            <!--s-data:{"ua":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36","title":"百度体育直播 韩国 vs 捷克 2026-06-12 10:00_百度体育","description":"百度体育聚合全网体育赛事信息，覆盖最新的赛事资讯、数据、直播等内容，主要包括NBA、CBA、中超、五大联赛、欧冠、LPL等赛事…","isBigText":false,"isDarkMode":false,"isBdLite":false,"isWonderApp":false,"clientUA":"mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/148.0.0.0 safari/537.36","isRealBaiDuBoxApp":null,"isBaiDuBoxApp":null,"isArkWeb":false,"isBaiduBoxOnArk":false,"isArkBrowser":false,"isHonorBrowserApp":null,"isBaiDuLite":false,"version":"","isSwan":false,"isIos":false,"isIPhone":false,"isIPod":false,"isIPad":false,"isAndroid":false,"isJumpNaOne":false,"isJumpNaTwo":false,"isTalosSafeVersion":false,"naCondition":false,"clientEnv":"pc","data":{"current":0,"header":{"bgColor":"#1678F2","bgimg":"https://gips0.baidu.com/it/u=3616645891,2930665822&fm=3028&app=3028&f=PNG&fmt=auto&q=94&size=f2670_927","category":"football","dataSourceText":"未开赛","date":"2026-06-12","dateFormat":"06月12日","endColor":"#1678F2","extInfo":{"chatNoMsg":{"img":"","text":["欢迎进入聊天室！","成为这个聊天室第一个发言的人吧"]},"chatTopBgimg":"https://gips3.baidu.com/it/u=1171802240,261847399&fm=3028&app=3028&f=PNG&fmt=auto&q=75&size=f345_177","chatTopBgimgBlack":"https://gips3.baidu.com/it/u=1171802240,261847399&fm=3028&app=3028&f=PNG&fmt=auto&q=75&size=f345_177","chatTopFoldIcon":"https://gips0.baidu.com/it/u=2014363711,1622719265&fm=3028&app=3028&f=PNG&fmt=auto&q=100&size=f177_177","chatTopFoldIconBlack":"https://gips1.baidu.com/it/u=2827437416,1183873569&fm=3028&app=3028&f=PNG&fmt=auto&q=100&size=f177_177","graphicChatBgimg":"https://gips3.baidu.com/it/u=324247832,3557076619&fm=3028&app=3028&f=PNG&fmt=auto&q=75&size=f1158_294","graphicTopBgimg":"https://gips2.baidu.com/it/u=3254747625,3568831763&fm=3028&app=3028&f=PNG&fmt=auto&q=100&size=f345_150","graphicTopBgimgBlack":"https://gips2.baidu.com/it/u=3254747625,3568831763&fm=3028&app=3028&f=PNG&fmt=auto&q=100&size=f345_150"},"game":"世界杯","hasFlash":true,"hasFreeLive":false,"hasGraphic":false,"hasJijin":false,"hasLive":false,"hasLiveOrFlash":true,"hasPreviewLive":false,"hasVipLive":false,"hot":"29","iconUrl":"https://search-operate.cdn.bcebos.com/63ed462184321dbb822bfc14a2b355b6.png","key":"5LiW55WM5p2vIzIwMjYtMDYtMTIj6Z%2Bp5Zu9dnPkuLnpuqYv5o235YWLL%2BeIseWwlOWFsCspritljJfpqazlhbbpob8%3D","leftGoal":"0","leftLogo":{"baiduBoxUri":"baiduboxapp://browser/invokeSportTeamDetail?params=%7B%22teamId%22%3A%22e350aa265bc58bf922eb6ec5d3b705f3%22%7D","baiduBoxUri2":"","isFlagStrange1":false,"isFlagStrange2":false,"link":"/al/team?id=e350aa265bc58bf922eb6ec5d3b705f3","link2":"","logo":"https://gips3.baidu.com/it/u=605950860,946410169&fm=3028&app=3028&f=PNG&fmt=auto&q=100&size=f768_512","logo2":"","logoIsRound":false,"name":"韩国","name2":"","nationalFlag1":"","nationalFlag2":"","ori_name":"韩国","rankInfo1":{"baiduBoxUri":"","link":"","text":"世界排名25"},"score":"-","stroke":0},"liveStage":"","liveStageText":"","liveStageTime":"","matchDesc":"世界杯小组赛A组第1轮","matchDescription":"","matchLink":"/al/match?match=%E4%B8%96%E7%95%8C%E6%9D%AF","matchName":"世界杯","matchStage":"小组赛A组第1轮","matchStatus":"0","matchStatusText":"未开赛","pcBgimg":"https://gips0.baidu.com/it/u=3616645891,2930665822&fm=3028&app=3028&f=PNG&fmt=auto&q=94&size=f2670_927","pcDataSourceText":"未开赛","pcHasFlash":true,"pcHasFreeLive":false,"pcHasLive":false,"pcHasLiveOrFlash":true,"pcHasPreviewLive":false,"pcHasVipLive":false,"pcText":"动画直播","plaintext_key":"世界杯#2026-06-12#韩国vs丹麦/捷克/爱尔兰/北马其顿","rawKey":"世界杯#2026-06-12#韩国vs丹麦/捷克/爱尔兰/北马其顿","refreshInterval":"10000","rightGoal":"0","rightLogo":{"baiduBoxUri":"baiduboxapp://browser/invokeSportTeamDetail?params=%7B%22teamId%22%3A%22bd0c6be1d4f081864fd88755b05c4f49%22%7D","baiduBoxUri2":"","isFlagStrange1":false,"isFlagStrange2":false,"link":"/al/team?id=bd0c6be1d4f081864fd88755b05c4f49","link2":"","logo":"https://gips3.baidu.com/it/u=2347456389,963830118&fm=3028&app=3028&f=PNG&fmt=auto&q=100&size=f250_167","logo2":"","logoIsRound":false,"name":"捷克","name2":"","nationalFlag1":"","nationalFlag2":"","ori_name":"捷克","rankInfo1":{"baiduBoxUri":"","link":"","text":"世界排名41"},"score":"-","stroke":0},"scoreInfo":{"leftBigScore":"","leftPenaltyScore":"","leftRegularScore":"0","leftTwoRoundScore":"","penaltyScoreText":"","rightBigScore":"","rightPenaltyScore":"","rightRegularScore":"0","rightTwoRoundScore":"","twoRoundScoreText":""},"single":false,"sports":"football","startColor":"#1678F2","status":"0","subscribeText":"点击订阅，获取最新比赛动态","time":"10:00","timestamp":1781229600,"timestamp_diff":390832,"vs":"0-0","weekday":"周五","winner":"","wiseDataSourceText":"未开赛","wiseHasFlash":true,"wiseHasFreeLive":false,"wiseHasLive":false,"wiseHasLiveOrFlash":true,"wiseHasPreviewLive":false,"wiseHasVipLive":false,"wiseText":"动画直播","word":"世界杯 韩国 捷克","year":""},"pcLiveList":[{"category":"动画直播","commentator":"","free":true,"has":true,"icon":"","index":30,"link":"https://live.leisu.com/detail-4460938?from=baidu","liveId":"","logo":"https://gimg3.baidu.com/lego/src=http%3A%2F%2Fstatic.open.baidu.com%2Fmedia%2Fch16%2Fpng%2Fleisu.png&refer=http%3A%2F%2Fwww.baidu.com&app=2009&size=w931&n=0&g=0n&er=404&q=75&fmt=auto&maxorilen2heic=2000000?sec=1780938000&t=08d11dbb9dce730c996c71422212df37","name":"雷速体育（动画）","recommend":false,"sourceId":"","to":"out","type":3,"vipLive":false}],"tabs":["分析","聊天","指数"],"tabsList":[{"data":{"igence":[{"intelligence":{"intelligenceteam":[{"content":"韩国6场比赛4胜0平，状态出色。"},{"content":"韩国本赛季近10个主场比赛，在领先的情况下最终主场赢球率达100%。"}],"intelligenceTeamInfo":{"link":"/al/team?id=e350aa265bc58bf922eb6ec5d3b705f3","logo":"https://gips3.baidu.com/it/u=605950860,946410169&fm=3028&app=3028&f=PNG&fmt=auto&q=100&size=f768_512","name":"韩国"},"intelligenceteamleater":[{"content":"捷克6场比赛连胜，状态极佳。"},{"content":"捷克近10场正赛主场8胜2平0负，表现出色。"}],"intelligenceteamLeaterInfo":{"link":"/al/team?id=bd0c6be1d4f081864fd88755b05c4f49","logo":"https://gips3.baidu.com/it/u=2347456389,963830118&fm=3028&app=3028&f=PNG&fmt=auto&q=100&size=f250_167","name":"捷克"}},"intelligencetitle":"有利情报"},{"intelligence":{"intelligenceteam":[{"content":"韩国近10场主场比赛得失球不超过2球的场次达到7场。"},{"content":"韩国本赛季近10个客场比赛，在落后的情况下最终客场输球率达100%。"}],"intelligenceTeamInfo":{"link":"/al/team?id=e350aa265bc58bf922eb6ec5d3b705f3","logo":"https://gips3.baidu.com/it/u=605950860,946410169&fm=3028&app=3028&f=PNG&fmt=auto&q=100&size=f768_512","name":"韩国"},"intelligenceteamleater":[{"content":"捷克本赛季近10个客场比赛，在落后的情况下最终客场输球率达100%。"}],"intelligenceteamLeaterInfo":{"link":"/al/team?id=bd0c6be1d4f081864fd88755b05c4f49","logo":"https://gips3.baidu.com/it/u=2347456389,963830118&fm=3028&app=3028&f=PNG&fmt=auto&q=100&size=f250_167","name":"捷克"}},"intelligencetitle":"不利情报"}],"homeRecord":[{"history":{"probability":[{"title":"胜率 100%","win":{"value":1,"text":"胜"},"draw":{"value":0,"text":"平"},"loss":{"value":0,"text":"负"}},{"title":"赢盘率 100%","win":{"value":1,"text":"赢"},"draw":{"value":0,"text":"走"},"loss":{"value":0,"text":"输"}},{"title":"大球率 100%","win":{"value":1,"text":"大"},"draw":{"value":0,"text":"走"},"loss":{"value":0,"text":"小"}}],"img":"","list":[{"date":"2016-06-05","left":{"name":"捷克","type":"img","value":"https://gips3.baidu.com/it/u=2347456389,963830118&fm=3028&app=3028&f=PNG&fmt=auto&q=100&size=f250_167","score":"1","isWin":false},"match":"国际友谊","right":{"name":"韩国","type":"img","value":"https://gips3.baidu.com/it/u=605950860,946410169&fm=3028&app=3028&f=PNG&fmt=auto&q=100&size=f768_512","score":"2","isWin":true},"vs":"1-2","oddsTotalGoals":{"value":"2.25","desc":"大球"},"oddsHandicap":{"value":"0.75","desc":"赢盘"}}],"headList":[{"date":"2016-06-05","match":"国际友谊"}],"headTitle":"","listTitle":["对阵比分","让球","进球数"],"result":"","title":"历史战绩","subTitle":"以下数据均为主队(韩国)视角"},"home":{"probability":null,"img":"","list":null,"headList":null,"headTitle":"","listTitle":null,"result":"","title":"","subTitle":""}},{"history":{"probability":[{"title":"胜率 67%","win":{"value":4,"text":"胜"},"draw":{"value":0,"text":"平"},"loss":{"value":2,"text":"负"}},{"title":"赢盘率 33%","win":{"value":2,"text":"赢"},"draw":{"value":1,"text":"走"},"loss":{"value":3,"text":"输"}},{"title":"大球率 33%","win":{"value":2,"text":"大"},"draw":{"value":0,"text":"走"},"loss":{"value":4,"text":"小"}}],"img":"https://gips3.baidu.com/it/u=605950860,946410169&fm=3028&app=3028&f=PNG&fmt=auto&q=100&size=f768_512","list":[{"date":"2026-06-04","left":{"name":"韩国","type":"name","value":"韩国","score":"1","isWin":true},"match":"国际友谊","right":{"name":"萨尔瓦多","type":"name","value":"萨尔瓦多","score":"0","isWin":false},"vs":"1-0","oddsTotalGoals":{"value":"2.75","desc":"小球"},"oddsHandicap":{"value":"1.5","desc":"输盘"}},{"date":"2026-05-31","left":{"name":"韩国","type":"name","value":"韩国","score":"5","isWin":true},"match":"国际友谊","right":{"name":"特立尼达和多巴哥","type":"name","value":"特立尼达和多巴哥","score":"0","isWin":false},"vs":"5-0","oddsTotalGoals":{"value":"3.25","desc":"大球"},"oddsHandicap":{"value":"2.25","desc":"赢盘"}},{"date":"2026-04-01","left":{"name":"奥地利","type":"name","value":"奥地利","score":"1","isWin":true},"match":"国际友谊","right":{"name":"韩国","type":"name","value":"韩国","score":"0","isWin":false},"vs":"1-0","oddsTotalGoals":{"value":"2.75","desc":"小球"},"oddsHandicap":{"value":"0.75","desc":"输盘"}},{"date":"2026-03-28","left":{"name":"韩国","type":"name","value":"韩国","score":"0","isWin":false},"match":"国际友谊","right":{"name":"科特迪瓦","type":"name","value":"科特迪瓦","score":"4","isWin":true},"vs":"0-4","oddsTotalGoals":{"value":"2.25","desc":"大球"},"oddsHandicap":{"value":"-0.25","desc":"输盘"}},{"date":"2025-11-18","left":{"name":"韩国","type":"name","value":"韩国","score":"1","isWin":true},"match":"国际友谊","right":{"name":"加纳","type":"name","value":"加纳","score":"0","isWin":false},"vs":"1-0","oddsTotalGoals":{"value":"2.75","desc":"小球"},"oddsHandicap":{"value":"1.0","desc":"走盘"}},{"date":"2025-11-14","left":{"name":"韩国","type":"name","value":"韩国","score":"2","isWin":true},"match":"国际友谊","right":{"name":"玻利维亚","type":"name","value":"玻利维亚","score":"0","isWin":false},"vs":"2-0","oddsTotalGoals":{"value":"2.5","desc":"小球"},"oddsHandicap":{"value":"1.0","desc":"赢盘"}}],"headList":[{"date":"2026-06-04","match":"国际友谊"},{"date":"2026-05-31","match":"国际友谊"},{"date":"2026-04-01","match":"国际友谊"},{"date":"2026-03-28","match":"国际友谊"},{"date":"2025-11-18","match":"国际友谊"},{"date":"2025-11-14","match":"国际友谊"}],"headTitle":"时间/赛事","listTitle":["对阵比分","让球","进球数"],"result":"4胜2负0平","title":"韩国近期战绩","subTitle":"","resultArr":{"count":6,"list":[{"count":"4","name":"胜"},{"count":"0","name":"平"},{"count":"2","name":"负"}]},"team_name":"韩国"},"home":{"probability":[{"title":"胜率 83%","win":{"value":5,"text":"胜"},"draw":{"value":0,"text":"平"},"loss":{"value":1,"text":"负"}},{"title":"赢盘率 50%","win":{"value":3,"text":"赢"},"draw":{"value":1,"text":"走"},"loss":{"value":2,"text":"输"}},{"title":"大球率 33%","win":{"value":2,"text":"大"},"draw":{"value":0,"text":"走"},"loss":{"value":4,"text":"小"}}],"img":"https://gips3.baidu.com/it/u=605950860,946410169&fm=3028&app=3028&f=PNG&fmt=auto&q=100&size=f768_512","list":[{"date":"2026-06-04","left":{"name":"韩国","type":"name","value":"韩国","score":"1","isWin":true},"match":"国际友谊","right":{"name":"萨尔瓦多","type":"name","value":"萨尔瓦多","score":"0","isWin":false},"vs":"1-0","oddsTotalGoals":{"value":"2.75","desc":"小球"},"oddsHandicap":{"value":"1.5","desc":"输盘"}},{"date":"2026-05-31","left":{"name":"韩国","type":"name","value":"韩国","score":"5","isWin":true},"match":"国际友谊","right":{"name":"特立尼达和多巴哥","type":"name","value":"特立尼达和多巴哥","score":"0","isWin":false},"vs":"5-0","oddsTotalGoals":{"value":"3.25","desc":"大球"},"oddsHandicap":{"value":"2.25","desc":"赢盘"}},{"date":"2026-03-28","left":{"name":"韩国","type":"name","value":"韩国","score":"0","isWin":false},"match":"国际友谊","right":{"name":"科特迪瓦","type":"name","value":"科特迪瓦","score":"4","isWin":true},"vs":"0-4","oddsTotalGoals":{"value":"2.25","desc":"大球"},"oddsHandicap":{"value":"-0.25","desc":"输盘"}},{"date":"2025-11-18","left":{"name":"韩国","type":"name","value":"韩国","score":"1","isWin":true},"match":"国际友谊","right":{"name":"加纳","type":"name","value":"加纳","score":"0","isWin":false},"vs":"1-0","oddsTotalGoals":{"value":"2.75","desc":"小球"},"oddsHandicap":{"value":"1.0","desc":"走盘"}},{"date":"2025-11-14","left":{"name":"韩国","type":"name","value":"韩国","score":"2","isWin":true},"match":"国际友谊","right":{"name":"玻利维亚","type":"name","value":"玻利维亚","score":"0","isWin":false},"vs":"2-0","oddsTotalGoals":{"value":"2.5","desc":"小球"},"oddsHandicap":{"value":"1.0","desc":"赢盘"}},{"date":"2025-10-14","left":{"name":"韩国","type":"name","value":"韩国","score":"2","isWin":true},"match":"国际友谊","right":{"name":"巴拉圭","type":"name","value":"巴拉圭","score":"0","isWin":false},"vs":"2-0","oddsTotalGoals":{"value":"2.25","desc":"小球"},"oddsHandicap":{"value":"0.25","desc":"赢盘"}}],"headList":[{"date":"2026-06-04","match":"国际友谊"},{"date":"2026-05-31","match":"国际友谊"},{"date":"2026-03-28","match":"国际友谊"},{"date":"2025-11-18","match":"国际友谊"},{"date":"2025-11-14","match":"国际友谊"},{"date":"2025-10-14","match":"国际友谊"}],"headTitle":"时间/赛事","listTitle":["对阵比分","让球","进球数"],"result":"5胜1负0平","title":"韩国近期战绩","subTitle":"","resultArr":{"count":6,"list":[{"count":"5","name":"胜"},{"count":"0","name":"平"},{"count":"1","name":"负"}]},"team_name":"韩国"}},{"history":{"probability":[{"title":"胜率 67%","win":{"value":4,"text":"胜"},"draw":{"value":2,"text":"平"},"loss":{"value":0,"text":"负"}},{"title":"赢盘率 50%","win":{"value":3,"text":"赢"},"draw":{"value":1,"text":"走"},"loss":{"value":2,"text":"输"}},{"title":"大球率 83%","win":{"value":5,"text":"大"},"draw":{"value":0,"text":"走"},"loss":{"value":1,"text":"小"}}],"img":"https://gips3.baidu.com/it/u=2347456389,963830118&fm=3028&app=3028&f=PNG&fmt=auto&q=100&size=f250_167","list":[{"date":"2026-06-05","left":{"name":"捷克","type":"name","value":"捷克","score":"3","isWin":true},"match":"国际友谊","right":{"name":"危地马拉","type":"name","value":"危地马拉","score":"1","isWin":false},"vs":"3-1","oddsTotalGoals":{"value":"2.75","desc":"大球"},"oddsHandicap":{"value":"1.5","desc":"赢盘"}},{"date":"2026-05-31","left":{"name":"捷克","type":"name","value":"捷克","score":"2","isWin":true},"match":"国际友谊","right":{"name":"科索沃","type":"name","value":"科索沃","score":"1","isWin":false},"vs":"2-1","oddsTotalGoals":{"value":"2.5","desc":"大球"},"oddsHandicap":{"value":"1.0","desc":"走盘"}},{"date":"2026-04-01","left":{"name":"捷克","type":"name","value":"捷克","score":"2","isWin":false},"match":"世欧预","right":{"name":"丹麦","type":"name","value":"丹麦","score":"2","isWin":false},"vs":"2-2","oddsTotalGoals":{"value":"2.25","desc":"大球"},"oddsHandicap":{"value":"-0.25","desc":"赢盘"}},{"date":"2026-03-27","left":{"name":"捷克","type":"name","value":"捷克","score":"2","isWin":false},"match":"世欧预","right":{"name":"爱尔兰","type":"name","value":"爱尔兰","score":"2","isWin":false},"vs":"2-2","oddsTotalGoals":{"value":"2.25","desc":"大球"},"oddsHandicap":{"value":"0.5","desc":"输盘"}},{"date":"2025-11-18","left":{"name":"捷克","type":"name","value":"捷克","score":"6","isWin":true},"match":"世欧预","right":{"name":"直布罗陀","type":"name","value":"直布罗陀","score":"0","isWin":false},"vs":"6-0","oddsTotalGoals":{"value":"5.0","desc":"大球"},"oddsHandicap":{"value":"4.5","desc":"赢盘"}},{"date":"2025-11-14","left":{"name":"捷克","type":"name","value":"捷克","score":"1","isWin":true},"match":"国际友谊","right":{"name":"圣马力诺","type":"name","value":"圣马力诺","score":"0","isWin":false},"vs":"1-0","oddsTotalGoals":{"value":"6.5","desc":"小球"},"oddsHandicap":{"value":"5.5","desc":"输盘"}}],"headList":[{"date":"2026-06-05","match":"国际友谊"},{"date":"2026-05-31","match":"国际友谊"},{"date":"2026-04-01","match":"世欧预"},{"date":"2026-03-27","match":"世欧预"},{"date":"2025-11-18","match":"世欧预"},{"date":"2025-11-14","match":"国际友谊"}],"headTitle":"时间/赛事","listTitle":["对阵比分","让球","进球数"],"result":"4胜0负2平","title":"捷克近期战绩","subTitle":"","resultArr":{"count":6,"list":[{"count":"4","name":"胜"},{"count":"2","name":"平"},{"count":"0","name":"负"}]},"team_name":"捷克"},"home":{"probability":[{"title":"胜率 33%","win":{"value":1,"text":"胜"},"draw":{"value":0,"text":"平"},"loss":{"value":2,"text":"负"}},{"title":"赢盘率 33%","win":{"value":1,"text":"赢"},"draw":{"value":0,"text":"走"},"loss":{"value":2,"text":"输"}},{"title":"大球率 67%","win":{"value":2,"text":"大"},"draw":{"value":0,"text":"走"},"loss":{"value":1,"text":"小"}}],"img":"https://gips3.baidu.com/it/u=2347456389,963830118&fm=3028&app=3028&f=PNG&fmt=auto&q=100&size=f250_167","list":[{"date":"2025-10-13","left":{"name":"法罗群岛","type":"name","value":"法罗群岛","score":"2","isWin":true},"match":"世欧预","right":{"name":"捷克","type":"name","value":"捷克","score":"1","isWin":false},"vs":"2-1","oddsTotalGoals":{"value":"2.75","desc":"大球"},"oddsHandicap":{"value":"-1.5","desc":"输盘"}},{"date":"2025-09-06","left":{"name":"黑山","type":"name","value":"黑山","score":"0","isWin":false},"match":"世欧预","right":{"name":"捷克","type":"name","value":"捷克","score":"2","isWin":true},"vs":"0-2","oddsTotalGoals":{"value":"2.5","desc":"小球"},"oddsHandicap":{"value":"-0.75","desc":"赢盘"}},{"date":"2025-06-10","left":{"name":"克罗地亚","type":"name","value":"克罗地亚","score":"5","isWin":true},"match":"世欧预","right":{"name":"捷克","type":"name","value":"捷克","score":"1","isWin":false},"vs":"5-1","oddsTotalGoals":{"value":"2.5","desc":"大球"},"oddsHandicap":{"value":"0.75","desc":"输盘"}}],"headList":[{"date":"2025-10-13","match":"世欧预"},{"date":"2025-09-06","match":"世欧预"},{"date":"2025-06-10","match":"世欧预"}],"headTitle":"时间/赛事","listTitle":["对阵比分","让球","进球数"],"result":"1胜2负0平","title":"捷克近期战绩","subTitle":"","resultArr":{"count":3,"list":[{"count":"1","name":"胜"},{"count":"0","name":"平"},{"count":"2","name":"负"}]},"team_name":"捷克"}}],"result":{"num":"532539","percentage":{"draw":"28%","lost":"32%","session":["主场胜利","平局","客场胜利"],"victory":"40%"},"resultfont":"赛前预测","team":[{"icon":"https://gips3.baidu.com/it/u=605950860,946410169&fm=3028&app=3028&f=PNG&fmt=auto&q=100&size=f768_512","team":"韩国","winner":"胜","winrate":"38%"},{"icon":"https://gips3.baidu.com/it/u=2347456389,963830118&fm=3028&app=3028&f=PNG&fmt=auto&q=100&size=f250_167","team":"捷克","winner":"胜","winrate":"33%"}]},"guess":{"data":[{"bottomColor":"#c92a2a","color":"#F13F40","count":4349,"guessed":false,"name":"韩国","topColor":"#f03e3e"},{"bottomColor":"#2a8b3e","color":"#FA9700","count":1234,"guessed":true,"name":"平局","topColor":"#2f9e44"},{"bottomColor":"#3b5bdb","color":"#3388FF","count":4100,"guessed":false,"name":"捷克","topColor":"#4263eb"}],"deadlineTime":"06月12日","guessed":true,"max":4349,"title":"猜胜负","total":9683}},"hasTabData":true,"title":"分析"},{"chatGraphic":"0","chatRoomId":10900631148,"hot":0,"isNewChat":1,"liveGraphicList":null,"open":true,"show":null,"title":"聊天"},{"sports":"football","title":"指数"}],"wiseLiveList":[{"category":"动画直播","commentator":"","free":true,"has":true,"icon":"","index":30,"link":"https://m.leisu.com/live/zhibo?id=4460938&form=baidu","liveId":"","logo":"https://gimg3.baidu.com/lego/src=http%3A%2F%2Fstatic.open.baidu.com%2Fmedia%2Fch16%2Fpng%2Fleisu.png&refer=http%3A%2F%2Fwww.baidu.com&app=2009&size=w931&n=0&g=0n&er=404&q=75&fmt=auto&maxorilen2heic=2000000?sec=1780938000&t=08d11dbb9dce730c996c71422212df37","name":"雷速体育（动画）","recommend":false,"sourceId":"","to":"out","type":3,"vipLive":false}],"version":""},"page":"detail","name":"livedetail","from":"baidu_tiyu","layout":"fixed","userInfo":{"info":{"uid":2881542153,"userName":"MAAAAAAAAX啊啊","avatar":"https://himg.bdimg.com/sys/portrait/item/pp.1.63af5bee.rWFbXhqaglSK6VbWrnfmzA"},"isLogin":true},"pageInfo":{"uri":"","url":"http://tiyu.baidu.com/al/live/detail?matchId=5LiW55WM5p2vIzIwMjYtMDYtMTIj6Z%2Bp5Zu9dnPkuLnpuqYv5o235YWLL%2BeIseWwlOWFsCspritljJfpqazlhbbpob8%3D&tab=%E5%88%86%E6%9E%90","env":"pc"},"pageUrl":"http://tiyu.baidu.com/al/live/detail?matchId=5LiW55WM5p2vIzIwMjYtMDYtMTIj6Z%2Bp5Zu9dnPkuLnpuqYv5o235YWLL%2BeIseWwlOWFsCspritljJfpqazlhbbpob8%3D&tab=%E5%88%86%E6%9E%90","isJumpNa":false,"expertText":"","liveTabText":"图文","isChatOn":false,"userInput":""}-->
+                            <section class="tiyu-page-bd_1WRjn">
+                                <div class="c-result">
+                                    <div class="wa-live-detail-content_xRiLQ" data-click="{&quot;page&quot;:&quot;detail&quot;}">
+                                        <div class="wa-live-detail-body_g5qmt   ">
+                                            <div top="0">
+                                                <div class="b-grouplist-sticky-title_2n1Ji" style="z-index: 120; top: 0px">
+                                                    <div scope="props">
+                                                        <div style="background: url(https://gips0.baidu.com/it/u=3616645891,2930665822&amp;fm=3028&amp;app=3028&amp;f=PNG&amp;fmt=auto&amp;q=94&amp;size=f2670_927) top / 100% auto no-repeat; padding-bottom: 82px;" data-click="{&quot;mod&quot;:&quot;container&quot;}" id="live-detail-header-container" class="live-detail-header-container_3lD8p  live-detail-header-container-pc_1AHXR ">
+                                                            <!--s-frag-->
+                                                            <div class="info-time_mthz_">
+                                                                <span>世界杯小组赛A组第1轮</span>
+                                                                <span class="info-time-vertical-bar_3pFAg"></span>
+                                                                <span>2026-06-12 10:00</span>
+                                                            </div>
+                                                            <div class="live-detail-header_2UHNC">
+                                                                <div class="header-team_rVzYo  header-height_2_2EY">
+                                                                    <div class="c-blocka" href="https://tiyu.baidu.com/al/team?id=e350aa265bc58bf922eb6ec5d3b705f3" data-sf-href="/al/team?id=e350aa265bc58bf922eb6ec5d3b705f3" data-logoIsRound="false" data-click="{&quot;act&quot;: &quot;a_leftteam&quot;}">
+                                                                        <div class="header-logo-wrap_uNgYG">
+                                                                            <div class="header-team-logo-wrap_1MIx5 ">
+                                                                                <a href="https://tiyu.baidu.com/al/team?id=e350aa265bc58bf922eb6ec5d3b705f3" data-click="{&quot;act&quot;:&quot;a_live_detail_logo&quot;,&quot;url&quot;:&quot;/al/team?id=e350aa265bc58bf922eb6ec5d3b705f3&quot;}" class="header-team-logo_1Y7y6  pc-hover_1nKug" style="z-index: 1; background-image:url(https://gips3.baidu.com/it/u=605950860,946410169&amp;fm=3028&amp;app=3028&amp;f=PNG&amp;fmt=auto&amp;q=100&amp;size=f768_512); border-color: #1678F2" data-sf-href="/al/team?id=e350aa265bc58bf922eb6ec5d3b705f3"></a>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="header-team-name__hNoj">
+                                                                            <div class="team-name_VCvtd team-name1_2k21A c-line-clamp1 only-team-name1_3cmzX">韩国</div>
+                                                                        </div>
+                                                                        <div class="header-team-rank_2CKg4">
+                                                                            <div class="team-rank_26oJC team-rank1_3gqZd only-team-rank1_2gK8T ">
+                                                                                <div class="rank-info-text_2fV_O">世界排名25</div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="header-info_XpTnt">
+                                                                    <div style="margin-top: .57rem" class="info-vs_aLqVt">
+                                                                        <div class="info-vs-img-box_2Bvhp">
+                                                                            <img src="https://gips3.baidu.com/it/u=3933666680,2344363601&amp;fm=3028&amp;app=3028&amp;f=PNG&amp;fmt=auto&amp;q=100&amp;size=f60_60">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div style="margin-top: .21rem" class="info-status_2bvCF">
+                                                                        <span data-click="{&quot;act&quot;:&quot;b_showplaylist&quot;,&quot;cat&quot;:&quot;video&quot;,&quot;url&quot;:&quot;&quot;,&quot;xcx_params&quot;:null,&quot;xcx_support_version&quot;:&quot;&quot;}" class="status-btn_2qmFR OP_LOG_BTN  ">
+                                                                            <span class="btn-content_jHnDI">
+                                                                                <span>动画直播</span>
+                                                                            </span>
+                                                                        </span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="header-team_rVzYo  header-height_2_2EY">
+                                                                    <div class="c-blocka" href="https://tiyu.baidu.com/al/team?id=bd0c6be1d4f081864fd88755b05c4f49" data-sf-href="/al/team?id=bd0c6be1d4f081864fd88755b05c4f49" data-logoIsRound="false" data-click="{&quot;act&quot;: &quot;a_rightteam&quot;}">
+                                                                        <div class="header-logo-wrap_uNgYG">
+                                                                            <div class="header-team-logo-wrap_1MIx5 ">
+                                                                                <a href="https://tiyu.baidu.com/al/team?id=bd0c6be1d4f081864fd88755b05c4f49" data-click="{&quot;act&quot;:&quot;a_live_detail_logo&quot;,&quot;url&quot;:&quot;/al/team?id=bd0c6be1d4f081864fd88755b05c4f49&quot;}" class="header-team-logo_1Y7y6  pc-hover_1nKug" style="z-index: 1; background-image:url(https://gips3.baidu.com/it/u=2347456389,963830118&amp;fm=3028&amp;app=3028&amp;f=PNG&amp;fmt=auto&amp;q=100&amp;size=f250_167); border-color: #1678F2" data-sf-href="/al/team?id=bd0c6be1d4f081864fd88755b05c4f49"></a>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="header-team-name__hNoj">
+                                                                            <div class="team-name_VCvtd team-name1_2k21A c-line-clamp1 only-team-name1_3cmzX">捷克</div>
+                                                                        </div>
+                                                                        <div class="header-team-rank_2CKg4">
+                                                                            <div class="team-rank_26oJC team-rank1_3gqZd only-team-rank1_2gK8T ">
+                                                                                <div class="rank-info-text_2fV_O">世界排名41</div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!--/s-frag-->
+                                                        </div>
+                                                        <div>
+                                                            <div style="height: 0; opacity: 0; z-index: 0" class="wa-tiyu-live-box-pc-container">
+                                                                <div class="live-box">
+                                                                    <a class="live-item c-blocka OP_LOG_BTN" data-click="{&quot;act&quot;:&quot;deliver&quot;,&quot;cat&quot;:&quot;live&quot;,&quot;mod&quot;:&quot;雷速体育（动画）&quot;,&quot;fr&quot;:&quot;out&quot;,&quot;url&quot;:&quot;https://live.leisu.com/detail-4460938?from=baidu&quot;}" href="false" data-href="tc">
+                                                                        <div class="item-info">
+                                                                            <img src="https://gimg3.baidu.com/lego/src=http%3A%2F%2Fstatic.open.baidu.com%2Fmedia%2Fch16%2Fpng%2Fleisu.png&amp;refer=http%3A%2F%2Fwww.baidu.com&amp;app=2009&amp;size=w931&amp;n=0&amp;g=0n&amp;er=404&amp;q=75&amp;fmt=auto&amp;maxorilen2heic=2000000?sec=1780938000&amp;t=08d11dbb9dce730c996c71422212df37">
+                                                                            <div class="c-gap-left-small c-line-clamp1">雷速体育（动画）  </div>
+                                                                        </div>
+                                                                        <div class="btn-style">动画直播 </div>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="c-navs-wrap c-navs-container m-c-bg-color-white     navs_zZbDI" style="background-color: rgba(0, 0, 0, 0.1)" data-module="c-n">
+                                                            <div class="c-navs-scroll-container" style="font-size: 16px; min-height: 0.44rem; --nav-height: 0.44rem;">
+                                                                <ul class="c-navs-common-content " voice-action="switch" role="tablist">
+                                                                    <li class="cos-color-text-minor c-navs-common-selected c-navs-scroll-select-bottom WA_LOG_TAB  " data-nolog="false" data-module="" aria-selected="true" role="tab">
+                                                                        <div class="c-navs-common-full-height">
+                                                                            <span class="flex-center c-color" style="color:#ffffff;border-bottom-color:#ffffff;font-size:undefined">
+                                                                                <span class="text-position" style="top: 0rem">分析   </span>
+                                                                            </span>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="cos-color-text-minor   WA_LOG_TAB  " data-nolog="false" data-module="" aria-selected="false" role="tab">
+                                                                        <div class="c-navs-common-full-height">
+                                                                            <span class="flex-center cos-color-text-minor" style="color:#ffffff;opacity:1;font-size:undefined">
+                                                                                <span class="text-position" style="top: 0rem">聊天   </span>
+                                                                            </span>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="cos-color-text-minor   WA_LOG_TAB  " data-nolog="false" data-module="" aria-selected="false" role="tab">
+                                                                        <div class="c-navs-common-full-height">
+                                                                            <span class="flex-center cos-color-text-minor" style="color:#ffffff;opacity:1;font-size:undefined">
+                                                                                <span class="text-position" style="top: 0rem">指数   </span>
+                                                                            </span>
+                                                                        </div>
+                                                                    </li>
+                                                                    <div class="c-navs-common-bottom"></div>
+                                                                </ul>
+                                                                <div class="c-navs-mask mask-left" style="background-image: linear-gradient(270deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.01) 100%);display:none;"></div>
+                                                                <div class="c-navs-mask mask-right" style="background-image: linear-gradient(270deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.01) 100%);display:none;"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <div scope="props">
+                                                        <div class="wa-live-detail-content-container_V9W45  " style="height: auto;
+                                margin-top: ;
+                                --chat-room-bg: url();">
+                                                            <div class="c-tabs-content " style="display: block">
+                                                                <div class="wa-livedetail-analysis-container_3K6vd">
+                                                                    <div class="wa-live-detai-guess_14A1y wa-livedetail-analysis-guess_3qWcX">
+                                                                        <div class="ty-module-title wa-livedetail-analysis-header_G687y">猜胜负</div>
+                                                                        <div class="analysis-guess-tip_2px_9 c-color">
+                                                                            <span>9683人参与</span>
+                                                                            <span>截止时间 06月12日</span>
+                                                                        </div>
+                                                                        <div class="wa-livedetail-progressbar_1Oc1s c-gap-top-large">
+                                                                            <div class="progressbar-name_5hWlk">
+                                                                                <span>韩国</span>
+                                                                                <span>
+                                                                                    平局<label>(已选)</label>
+                                                                                </span>
+                                                                                <span>捷克</span>
+                                                                            </div>
+                                                                            <div class="progressbar-rail_3io-L ">
+                                                                                <span style="width: 45%"></span>
+                                                                                <span style="width: 13%"></span>
+                                                                                <span style="width: 42%"></span>
+                                                                            </div>
+                                                                            <div class="progressbar-rate_2jTrB">
+                                                                                <span style="width: 45%">45% </span>
+                                                                                <span style="width: 13%">
+                                                                                    13%平局<label>(已选)</label>
+                                                                                </span>
+                                                                                <span style="width: 42%">42% </span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <p class="c-gap-line" style="height: .08rem; background-color: #f1f1f1"></p>
+                                                                    <div class="achievements-history_2qrD5">
+                                                                        <div class="achievements-header_UvmOG">
+                                                                            <div class="ty-module-title title_bJ2EA">
+                                                                                <span class="title-name_EtTD3 c-line-clamp1">历史战绩</span>
+                                                                                <span class="tip-span_22zsK">(近1场)</span>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="sub-tips_3KYJ5">以下数据均为主队(韩国)视角</div>
+                                                                        <div class="achievements-echarts_oN6i0 ios-scroll-wrap_1OCPc">
+                                                                            <div class="echarts-wrap_35T5w">
+                                                                                <div class="echsrts-title__r4QW c-line-clamp1">胜率 100%</div>
+                                                                                <div>
+                                                                                    <div class="radar-container_3Q9mW"></div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="echarts-wrap_35T5w">
+                                                                                <div class="echsrts-title__r4QW c-line-clamp1">赢盘率 100%</div>
+                                                                                <div>
+                                                                                    <div class="radar-container_3Q9mW"></div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="echarts-wrap_35T5w">
+                                                                                <div class="echsrts-title__r4QW c-line-clamp1">大球率 100%</div>
+                                                                                <div>
+                                                                                    <div class="radar-container_3Q9mW"></div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="exponential-table-wrap_2_-6a ">
+                                                                            <div class="table-wrap_GF_4_">
+                                                                                <div class="table-left_3DBQd  ">
+                                                                                    <div class="company-name_Nw0G4 c-line-clamp1">时间/赛事</div>
+                                                                                    <div class="name-detail_2Fie3  c-line-clamp1">
+                                                                                        <div class="tennis-name-line_23o3B">2016-06-05</div>
+                                                                                        <div class="tennis-name-line_23o3B">国际友谊</div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="table-right_1m49B ios-scroll-wrap_xxkYG ">
+                                                                                    <div class="table-right-wrap_2k8BL">
+                                                                                        <div class="data-title_29ZDY">
+                                                                                            <div class="right-title_Yiogr  first-title_3NZQH ">对阵比分</div>
+                                                                                            <div class="right-title_Yiogr   not-first-title_3r89W">让球</div>
+                                                                                            <div class="right-title_Yiogr   not-first-title_3r89W">进球数</div>
+                                                                                        </div>
+                                                                                        <div class="table-list_35qb2">
+                                                                                            <div class="info-content_1AIoe ">
+                                                                                                <span class="left-name_1qpSd c-line-clamp1 ">捷克</span>
+                                                                                                <span class="score-vs_JjGN7">
+                                                                                                    <span>1</span>
+                                                                                                    <span>-</span>
+                                                                                                    <span class="victory_uLLoE">2</span>
+                                                                                                </span>
+                                                                                                <span class="right-name_2u5kk c-line-clamp1 victory_uLLoE">韩国</span>
+                                                                                            </div>
+                                                                                            <div class="let-ball-content_Icytm ">
+                                                                                                <div>0.75</div>
+                                                                                                <div class="red-color_a6l-a ">赢盘</div>
+                                                                                            </div>
+                                                                                            <div class="ball-count-content_2A6D1 ">
+                                                                                                <div>2.25</div>
+                                                                                                <div class="red-color_a6l-a ">大球</div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <p class="c-gap-line" style="height: .08rem; background-color: #f1f1f1"></p>
+                                                                    </div>
+                                                                    <div class="achievements-history_2qrD5">
+                                                                        <div class="achievements-header_UvmOG">
+                                                                            <div class="ty-module-title title_bJ2EA">
+                                                                                <span class="title-name_EtTD3 c-line-clamp1">韩国近期战绩</span>
+                                                                                <span class="tip-span_22zsK">(近6场)</span>
+                                                                            </div>
+                                                                            <div class="btn_1i2kp">
+                                                                                <div class="btn-item_2vHL5 c-line-clamp1 select-btn_cEzmx">全部</div>
+                                                                                <div class="btn-item_2vHL5 c-line-clamp1 ">同主客</div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="achievements-echarts_oN6i0 ios-scroll-wrap_1OCPc">
+                                                                            <div class="echarts-wrap_35T5w">
+                                                                                <div class="echsrts-title__r4QW c-line-clamp1">胜率 67%</div>
+                                                                                <div>
+                                                                                    <div class="radar-container_3Q9mW"></div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="echarts-wrap_35T5w">
+                                                                                <div class="echsrts-title__r4QW c-line-clamp1">赢盘率 33%</div>
+                                                                                <div>
+                                                                                    <div class="radar-container_3Q9mW"></div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="echarts-wrap_35T5w">
+                                                                                <div class="echsrts-title__r4QW c-line-clamp1">大球率 33%</div>
+                                                                                <div>
+                                                                                    <div class="radar-container_3Q9mW"></div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="exponential-table-wrap_2_-6a ">
+                                                                            <div class="table-wrap_GF_4_">
+                                                                                <div class="table-left_3DBQd  ">
+                                                                                    <div class="company-name_Nw0G4 c-line-clamp1">时间/赛事</div>
+                                                                                    <div class="name-detail_2Fie3  c-line-clamp1">
+                                                                                        <div class="tennis-name-line_23o3B">2026-06-04</div>
+                                                                                        <div class="tennis-name-line_23o3B">国际友谊</div>
+                                                                                    </div>
+                                                                                    <div class="name-detail_2Fie3  c-line-clamp1">
+                                                                                        <div class="tennis-name-line_23o3B">2026-05-31</div>
+                                                                                        <div class="tennis-name-line_23o3B">国际友谊</div>
+                                                                                    </div>
+                                                                                    <div class="name-detail_2Fie3  c-line-clamp1">
+                                                                                        <div class="tennis-name-line_23o3B">2026-04-01</div>
+                                                                                        <div class="tennis-name-line_23o3B">国际友谊</div>
+                                                                                    </div>
+                                                                                    <div class="name-detail_2Fie3  c-line-clamp1">
+                                                                                        <div class="tennis-name-line_23o3B">2026-03-28</div>
+                                                                                        <div class="tennis-name-line_23o3B">国际友谊</div>
+                                                                                    </div>
+                                                                                    <div class="name-detail_2Fie3  c-line-clamp1">
+                                                                                        <div class="tennis-name-line_23o3B">2025-11-18</div>
+                                                                                        <div class="tennis-name-line_23o3B">国际友谊</div>
+                                                                                    </div>
+                                                                                    <div class="name-detail_2Fie3  c-line-clamp1">
+                                                                                        <div class="tennis-name-line_23o3B">2025-11-14</div>
+                                                                                        <div class="tennis-name-line_23o3B">国际友谊</div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="table-right_1m49B ios-scroll-wrap_xxkYG ">
+                                                                                    <div class="table-right-wrap_2k8BL">
+                                                                                        <div class="data-title_29ZDY">
+                                                                                            <div class="right-title_Yiogr  first-title_3NZQH ">对阵比分</div>
+                                                                                            <div class="right-title_Yiogr   not-first-title_3r89W">让球</div>
+                                                                                            <div class="right-title_Yiogr   not-first-title_3r89W">进球数</div>
+                                                                                        </div>
+                                                                                        <div class="table-list_35qb2">
+                                                                                            <div class="info-content_1AIoe ">
+                                                                                                <span class="left-name_1qpSd c-line-clamp1 victory_uLLoE">韩国</span>
+                                                                                                <span class="score-vs_JjGN7">
+                                                                                                    <span class="victory_uLLoE">1</span>
+                                                                                                    <span>-</span>
+                                                                                                    <span>0</span>
+                                                                                                </span>
+                                                                                                <span class="right-name_2u5kk c-line-clamp1 ">萨尔瓦多</span>
+                                                                                            </div>
+                                                                                            <div class="let-ball-content_Icytm ">
+                                                                                                <div>1.5</div>
+                                                                                                <div class=" green-color_1dHHQ">输盘</div>
+                                                                                            </div>
+                                                                                            <div class="ball-count-content_2A6D1 ">
+                                                                                                <div>2.75</div>
+                                                                                                <div class=" green-color_1dHHQ">小球</div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="table-list_35qb2">
+                                                                                            <div class="info-content_1AIoe ">
+                                                                                                <span class="left-name_1qpSd c-line-clamp1 victory_uLLoE">韩国</span>
+                                                                                                <span class="score-vs_JjGN7">
+                                                                                                    <span class="victory_uLLoE">5</span>
+                                                                                                    <span>-</span>
+                                                                                                    <span>0</span>
+                                                                                                </span>
+                                                                                                <span class="right-name_2u5kk c-line-clamp1 ">特立尼达和多巴哥</span>
+                                                                                            </div>
+                                                                                            <div class="let-ball-content_Icytm ">
+                                                                                                <div>2.25</div>
+                                                                                                <div class="red-color_a6l-a ">赢盘</div>
+                                                                                            </div>
+                                                                                            <div class="ball-count-content_2A6D1 ">
+                                                                                                <div>3.25</div>
+                                                                                                <div class="red-color_a6l-a ">大球</div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="table-list_35qb2">
+                                                                                            <div class="info-content_1AIoe ">
+                                                                                                <span class="left-name_1qpSd c-line-clamp1 victory_uLLoE">奥地利</span>
+                                                                                                <span class="score-vs_JjGN7">
+                                                                                                    <span class="victory_uLLoE">1</span>
+                                                                                                    <span>-</span>
+                                                                                                    <span>0</span>
+                                                                                                </span>
+                                                                                                <span class="right-name_2u5kk c-line-clamp1 ">韩国</span>
+                                                                                            </div>
+                                                                                            <div class="let-ball-content_Icytm ">
+                                                                                                <div>0.75</div>
+                                                                                                <div class=" green-color_1dHHQ">输盘</div>
+                                                                                            </div>
+                                                                                            <div class="ball-count-content_2A6D1 ">
+                                                                                                <div>2.75</div>
+                                                                                                <div class=" green-color_1dHHQ">小球</div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="table-list_35qb2">
+                                                                                            <div class="info-content_1AIoe ">
+                                                                                                <span class="left-name_1qpSd c-line-clamp1 ">韩国</span>
+                                                                                                <span class="score-vs_JjGN7">
+                                                                                                    <span>0</span>
+                                                                                                    <span>-</span>
+                                                                                                    <span class="victory_uLLoE">4</span>
+                                                                                                </span>
+                                                                                                <span class="right-name_2u5kk c-line-clamp1 victory_uLLoE">科特迪瓦</span>
+                                                                                            </div>
+                                                                                            <div class="let-ball-content_Icytm ">
+                                                                                                <div>-0.25</div>
+                                                                                                <div class=" green-color_1dHHQ">输盘</div>
+                                                                                            </div>
+                                                                                            <div class="ball-count-content_2A6D1 ">
+                                                                                                <div>2.25</div>
+                                                                                                <div class="red-color_a6l-a ">大球</div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="table-list_35qb2">
+                                                                                            <div class="info-content_1AIoe ">
+                                                                                                <span class="left-name_1qpSd c-line-clamp1 victory_uLLoE">韩国</span>
+                                                                                                <span class="score-vs_JjGN7">
+                                                                                                    <span class="victory_uLLoE">1</span>
+                                                                                                    <span>-</span>
+                                                                                                    <span>0</span>
+                                                                                                </span>
+                                                                                                <span class="right-name_2u5kk c-line-clamp1 ">加纳</span>
+                                                                                            </div>
+                                                                                            <div class="let-ball-content_Icytm ">
+                                                                                                <div>1.0</div>
+                                                                                                <div class=" ">走盘</div>
+                                                                                            </div>
+                                                                                            <div class="ball-count-content_2A6D1 ">
+                                                                                                <div>2.75</div>
+                                                                                                <div class=" green-color_1dHHQ">小球</div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="table-list_35qb2">
+                                                                                            <div class="info-content_1AIoe ">
+                                                                                                <span class="left-name_1qpSd c-line-clamp1 victory_uLLoE">韩国</span>
+                                                                                                <span class="score-vs_JjGN7">
+                                                                                                    <span class="victory_uLLoE">2</span>
+                                                                                                    <span>-</span>
+                                                                                                    <span>0</span>
+                                                                                                </span>
+                                                                                                <span class="right-name_2u5kk c-line-clamp1 ">玻利维亚</span>
+                                                                                            </div>
+                                                                                            <div class="let-ball-content_Icytm ">
+                                                                                                <div>1.0</div>
+                                                                                                <div class="red-color_a6l-a ">赢盘</div>
+                                                                                            </div>
+                                                                                            <div class="ball-count-content_2A6D1 ">
+                                                                                                <div>2.5</div>
+                                                                                                <div class=" green-color_1dHHQ">小球</div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <p class="c-gap-line" style="height: .08rem; background-color: #f1f1f1"></p>
+                                                                    </div>
+                                                                    <div class="achievements-history_2qrD5">
+                                                                        <div class="achievements-header_UvmOG">
+                                                                            <div class="ty-module-title title_bJ2EA">
+                                                                                <span class="title-name_EtTD3 c-line-clamp1">捷克近期战绩</span>
+                                                                                <span class="tip-span_22zsK">(近6场)</span>
+                                                                            </div>
+                                                                            <div class="btn_1i2kp">
+                                                                                <div class="btn-item_2vHL5 c-line-clamp1 select-btn_cEzmx">全部</div>
+                                                                                <div class="btn-item_2vHL5 c-line-clamp1 ">同主客</div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="achievements-echarts_oN6i0 ios-scroll-wrap_1OCPc">
+                                                                            <div class="echarts-wrap_35T5w">
+                                                                                <div class="echsrts-title__r4QW c-line-clamp1">胜率 67%</div>
+                                                                                <div>
+                                                                                    <div class="radar-container_3Q9mW"></div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="echarts-wrap_35T5w">
+                                                                                <div class="echsrts-title__r4QW c-line-clamp1">赢盘率 50%</div>
+                                                                                <div>
+                                                                                    <div class="radar-container_3Q9mW"></div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="echarts-wrap_35T5w">
+                                                                                <div class="echsrts-title__r4QW c-line-clamp1">大球率 83%</div>
+                                                                                <div>
+                                                                                    <div class="radar-container_3Q9mW"></div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="exponential-table-wrap_2_-6a ">
+                                                                            <div class="table-wrap_GF_4_">
+                                                                                <div class="table-left_3DBQd  ">
+                                                                                    <div class="company-name_Nw0G4 c-line-clamp1">时间/赛事</div>
+                                                                                    <div class="name-detail_2Fie3  c-line-clamp1">
+                                                                                        <div class="tennis-name-line_23o3B">2026-06-05</div>
+                                                                                        <div class="tennis-name-line_23o3B">国际友谊</div>
+                                                                                    </div>
+                                                                                    <div class="name-detail_2Fie3  c-line-clamp1">
+                                                                                        <div class="tennis-name-line_23o3B">2026-05-31</div>
+                                                                                        <div class="tennis-name-line_23o3B">国际友谊</div>
+                                                                                    </div>
+                                                                                    <div class="name-detail_2Fie3  c-line-clamp1">
+                                                                                        <div class="tennis-name-line_23o3B">2026-04-01</div>
+                                                                                        <div class="tennis-name-line_23o3B">世欧预</div>
+                                                                                    </div>
+                                                                                    <div class="name-detail_2Fie3  c-line-clamp1">
+                                                                                        <div class="tennis-name-line_23o3B">2026-03-27</div>
+                                                                                        <div class="tennis-name-line_23o3B">世欧预</div>
+                                                                                    </div>
+                                                                                    <div class="name-detail_2Fie3  c-line-clamp1">
+                                                                                        <div class="tennis-name-line_23o3B">2025-11-18</div>
+                                                                                        <div class="tennis-name-line_23o3B">世欧预</div>
+                                                                                    </div>
+                                                                                    <div class="name-detail_2Fie3  c-line-clamp1">
+                                                                                        <div class="tennis-name-line_23o3B">2025-11-14</div>
+                                                                                        <div class="tennis-name-line_23o3B">国际友谊</div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="table-right_1m49B ios-scroll-wrap_xxkYG ">
+                                                                                    <div class="table-right-wrap_2k8BL">
+                                                                                        <div class="data-title_29ZDY">
+                                                                                            <div class="right-title_Yiogr  first-title_3NZQH ">对阵比分</div>
+                                                                                            <div class="right-title_Yiogr   not-first-title_3r89W">让球</div>
+                                                                                            <div class="right-title_Yiogr   not-first-title_3r89W">进球数</div>
+                                                                                        </div>
+                                                                                        <div class="table-list_35qb2">
+                                                                                            <div class="info-content_1AIoe ">
+                                                                                                <span class="left-name_1qpSd c-line-clamp1 victory_uLLoE">捷克</span>
+                                                                                                <span class="score-vs_JjGN7">
+                                                                                                    <span class="victory_uLLoE">3</span>
+                                                                                                    <span>-</span>
+                                                                                                    <span>1</span>
+                                                                                                </span>
+                                                                                                <span class="right-name_2u5kk c-line-clamp1 ">危地马拉</span>
+                                                                                            </div>
+                                                                                            <div class="let-ball-content_Icytm ">
+                                                                                                <div>1.5</div>
+                                                                                                <div class="red-color_a6l-a ">赢盘</div>
+                                                                                            </div>
+                                                                                            <div class="ball-count-content_2A6D1 ">
+                                                                                                <div>2.75</div>
+                                                                                                <div class="red-color_a6l-a ">大球</div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="table-list_35qb2">
+                                                                                            <div class="info-content_1AIoe ">
+                                                                                                <span class="left-name_1qpSd c-line-clamp1 victory_uLLoE">捷克</span>
+                                                                                                <span class="score-vs_JjGN7">
+                                                                                                    <span class="victory_uLLoE">2</span>
+                                                                                                    <span>-</span>
+                                                                                                    <span>1</span>
+                                                                                                </span>
+                                                                                                <span class="right-name_2u5kk c-line-clamp1 ">科索沃</span>
+                                                                                            </div>
+                                                                                            <div class="let-ball-content_Icytm ">
+                                                                                                <div>1.0</div>
+                                                                                                <div class=" ">走盘</div>
+                                                                                            </div>
+                                                                                            <div class="ball-count-content_2A6D1 ">
+                                                                                                <div>2.5</div>
+                                                                                                <div class="red-color_a6l-a ">大球</div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="table-list_35qb2">
+                                                                                            <div class="info-content_1AIoe ">
+                                                                                                <span class="left-name_1qpSd c-line-clamp1 ">捷克</span>
+                                                                                                <span class="score-vs_JjGN7">
+                                                                                                    <span>2</span>
+                                                                                                    <span>-</span>
+                                                                                                    <span>2</span>
+                                                                                                </span>
+                                                                                                <span class="right-name_2u5kk c-line-clamp1 ">丹麦</span>
+                                                                                            </div>
+                                                                                            <div class="let-ball-content_Icytm ">
+                                                                                                <div>-0.25</div>
+                                                                                                <div class="red-color_a6l-a ">赢盘</div>
+                                                                                            </div>
+                                                                                            <div class="ball-count-content_2A6D1 ">
+                                                                                                <div>2.25</div>
+                                                                                                <div class="red-color_a6l-a ">大球</div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="table-list_35qb2">
+                                                                                            <div class="info-content_1AIoe ">
+                                                                                                <span class="left-name_1qpSd c-line-clamp1 ">捷克</span>
+                                                                                                <span class="score-vs_JjGN7">
+                                                                                                    <span>2</span>
+                                                                                                    <span>-</span>
+                                                                                                    <span>2</span>
+                                                                                                </span>
+                                                                                                <span class="right-name_2u5kk c-line-clamp1 ">爱尔兰</span>
+                                                                                            </div>
+                                                                                            <div class="let-ball-content_Icytm ">
+                                                                                                <div>0.5</div>
+                                                                                                <div class=" green-color_1dHHQ">输盘</div>
+                                                                                            </div>
+                                                                                            <div class="ball-count-content_2A6D1 ">
+                                                                                                <div>2.25</div>
+                                                                                                <div class="red-color_a6l-a ">大球</div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="table-list_35qb2">
+                                                                                            <div class="info-content_1AIoe ">
+                                                                                                <span class="left-name_1qpSd c-line-clamp1 victory_uLLoE">捷克</span>
+                                                                                                <span class="score-vs_JjGN7">
+                                                                                                    <span class="victory_uLLoE">6</span>
+                                                                                                    <span>-</span>
+                                                                                                    <span>0</span>
+                                                                                                </span>
+                                                                                                <span class="right-name_2u5kk c-line-clamp1 ">直布罗陀</span>
+                                                                                            </div>
+                                                                                            <div class="let-ball-content_Icytm ">
+                                                                                                <div>4.5</div>
+                                                                                                <div class="red-color_a6l-a ">赢盘</div>
+                                                                                            </div>
+                                                                                            <div class="ball-count-content_2A6D1 ">
+                                                                                                <div>5.0</div>
+                                                                                                <div class="red-color_a6l-a ">大球</div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="table-list_35qb2">
+                                                                                            <div class="info-content_1AIoe ">
+                                                                                                <span class="left-name_1qpSd c-line-clamp1 victory_uLLoE">捷克</span>
+                                                                                                <span class="score-vs_JjGN7">
+                                                                                                    <span class="victory_uLLoE">1</span>
+                                                                                                    <span>-</span>
+                                                                                                    <span>0</span>
+                                                                                                </span>
+                                                                                                <span class="right-name_2u5kk c-line-clamp1 ">圣马力诺</span>
+                                                                                            </div>
+                                                                                            <div class="let-ball-content_Icytm ">
+                                                                                                <div>5.5</div>
+                                                                                                <div class=" green-color_1dHHQ">输盘</div>
+                                                                                            </div>
+                                                                                            <div class="ball-count-content_2A6D1 ">
+                                                                                                <div>6.5</div>
+                                                                                                <div class=" green-color_1dHHQ">小球</div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <p class="c-gap-line" style="height: .08rem; background-color: #f1f1f1"></p>
+                                                                    </div>
+                                                                    <div class="wa-live-detai-guess_14A1y wa-livedetail-analysis-result_1IO24">
+                                                                        <div class="ty-module-title wa-livedetail-analysis-header_G687y">赛前预测</div>
+                                                                        <div class="analysis-result-compare_3QET8">
+                                                                            <div class="compare-team_18WPj">
+                                                                                <p>38%</p>
+                                                                                <p class="c-line-clamp1">韩国 本场胜率</p>
+                                                                            </div>
+                                                                            <div class="compare-team_18WPj">
+                                                                                <p>33%</p>
+                                                                                <p class="c-line-clamp1">捷克 本场胜率</p>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="analysis-result-history_3RozF">
+                                                                            过去3年，相似赔率共出现<span class="c-gap-left-small">532539</span>
+                                                                            次
+                                                                        </div>
+                                                                        <div class="wa-livedetail-progressbar_1Oc1s c-gap-top-large">
+                                                                            <div class="progressbar-name_5hWlk">
+                                                                                <span>主场胜利</span>
+                                                                                <span>平局</span>
+                                                                                <span>客场胜利</span>
+                                                                            </div>
+                                                                            <div class="progressbar-rail_3io-L ">
+                                                                                <span style="width: 40%"></span>
+                                                                                <span style="width: 28%"></span>
+                                                                                <span style="width: 32%"></span>
+                                                                            </div>
+                                                                            <div class="progressbar-rate_2jTrB">
+                                                                                <span style="width: 40%">40% </span>
+                                                                                <span style="width: 28%">28%平局 </span>
+                                                                                <span style="width: 32%">32% </span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="wa-live-detai-guess_14A1y wa-livedetail-analysis-igence_3nW6p">
+                                                                        <div class="analysis-igence-tabs_2S50H">
+                                                                            <span class="OP_LOG_BTN active_1lMRG" data-click="{&quot;act&quot;:&quot;igence&quot;}">有利情报 </span>
+                                                                            <span class="OP_LOG_BTN " data-click="{&quot;act&quot;:&quot;igence&quot;}">不利情报 </span>
+                                                                        </div>
+                                                                        <div class="analysis-igence-icons_1YGAr">
+                                                                            <label>
+                                                                                <img src="https://gips3.baidu.com/it/u=605950860,946410169&amp;fm=3028&amp;app=3028&amp;f=PNG&amp;fmt=auto&amp;q=100&amp;size=f768_512">韩国 
+                                                                            </label>
+                                                                            <label>
+                                                                                <img src="https://gips3.baidu.com/it/u=2347456389,963830118&amp;fm=3028&amp;app=3028&amp;f=PNG&amp;fmt=auto&amp;q=100&amp;size=f250_167">捷克 
+                                                                            </label>
+                                                                        </div>
+                                                                        <div class="analysis-igence-list_3Vm2-">
+                                                                            <div class="igence-list-item_l9HOZ">
+                                                                                <p>1. 韩国6场比赛4胜0平，状态出色。</p>
+                                                                                <p>2. 韩国本赛季近10个主场比赛，在领先的情况下最终主场赢球率达100%。</p>
+                                                                            </div>
+                                                                            <div class="igence-list-item_l9HOZ">
+                                                                                <p>1. 捷克6场比赛连胜，状态极佳。</p>
+                                                                                <p>2. 捷克近10场正赛主场8胜2平0负，表现出色。</p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <p class="c-gap-line" style="height: .08rem; background-color: #f1f1f1"></p>
+                                                                    <div></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div style=";display:none;">
+                                        <div class="b-popup-wrapper_2bI6l live-list_1FyVV">
+                                            <div class="b-popup-modal b-popup-modal_3tEYw" style="opacity: 0; bottom: 0; width: 100%; transform: translate3d(0px, 100%, 0px); transition: transform 0.4s ease 0s">
+                                                <div class="b-popup-head_138jJ">
+                                                    <div class="b-popup-title_3RZkM">
+                                                        <div class="live-list-title_1Xuv7">
+                                                            直播列表 
+                                                            <div class="live-list-close_1JHyf">
+                                                                <i class="cos-icon cos-icon-close"></i>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="b-popup-content_Xs0rV">
+                                                    <div>
+                                                        <div class="live-list-list_N6uE5">
+                                                            <a data-click="{&quot;act&quot;:&quot;deliver&quot;,&quot;cat&quot;:&quot;live&quot;,&quot;mod&quot;:&quot;雷速体育（动画）&quot;,&quot;fr&quot;:&quot;out&quot;,&quot;url&quot;:&quot;https://live.leisu.com/detail-4460938?from=baidu&quot;}" href="javascript:void(0);" class="live-list-item_1ffLQ OP_LOG_BTN" data-href="tc">
+                                                                <div class="list-item-img_32rqw" style="background: url(https://gimg3.baidu.com/lego/src=http%3A%2F%2Fstatic.open.baidu.com%2Fmedia%2Fch16%2Fpng%2Fleisu.png&amp;refer=http%3A%2F%2Fwww.baidu.com&amp;app=2009&amp;size=w931&amp;n=0&amp;g=0n&amp;er=404&amp;q=75&amp;fmt=auto&amp;maxorilen2heic=2000000?sec=1780938000&amp;t=08d11dbb9dce730c996c71422212df37) center / cover no-repeat"></div>
+                                                                <div class="list-item-name_1Vpfq">雷速体育（动画）</div>
+                                                                <div style="flex: 1;"></div>
+                                                                <div class="list-item-category_3g7x1">
+                                                                    <span class="category-btn_1moe8">动画直播</span>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="b-popup-mask b-popup-mask_1okIU" style="display: none; opacity: 0; transition: opacity 0.4s ease 0s"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="aside_38opu animated_3P7DB " style="left: 100%; height: 0px;;display:none;">
+                                    <div class="wa-tiyu-profile-container_jZScV">
+                                        <div class="c-row wa-tiyu-profile-head_a9Vmu">
+                                            <div class="avatar_3gDsc" style="background: url(http://boscdn.bpc.baidu.com/mms-res/tiyu/wise/img/default_avatar.png) center / cover no-repeat; background-size: cover;"></div>
+                                            <div class=" c-title c-color-link">未登录</div>
+                                        </div>
+                                        <div class="wa-tiyu-profile-content_1oRC2">
+                                            <a class="c-row wa-tiyu-profile-content-row_DSpOy c-blocka c-color-link">
+                                                <span class="icon_DgNNj home-icon_1BgSR"></span>
+                                                <span>直播首页</span>
+                                            </a>
+                                            <a class="c-row wa-tiyu-profile-content-row_DSpOy c-blocka c-color-link OP_LOG_BTN" data-click="{&quot;act&quot;:&quot;pv&quot;}" href="https://tiyu.baidu.com/tvlist" data-sf-href="/tvlist">
+                                                <span class="icon_DgNNj tv-icon_1yjJe"></span>
+                                                <span>电视频道</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="page-shade_2DNhT animated_3P7DB fadeIn_1P3H_" style="z-index: 0; height: 0px;;display:none;">
+                                    <div class="nav-pointer_3_yj6">
+                                        <span class="bg-pointer_2Iviw"></span>
+                                        <p class="c-line-clamp1">轻触这里关闭 </p>
+                                    </div>
+                                </div>
+                            </section>
+                        </main>
+                    </div>
+                    <script>
+                        // dp平台统计代码：在首屏大概位置插入以下代码，用来统计首屏时间
+                        if (window.alog) {
+                            void function(e, t) {
+                                for (var n = t.getElementsByTagName("img"), a = +new Date, i = [], o = function() {
+                                    this.removeEventListener && this.removeEventListener("load", o, !1),
+                                    i.push({
+                                        img: this,
+                                        time: +new Date
+                                    })
+                                }, s = 0; s < n.length; s++)
+                                    !function() {
+                                        var e = n[s];
+                                        e.addEventListener ? !e.complete && e.addEventListener("load", o, !1) : e.attachEvent && e.attachEvent("onreadystatechange", function() {
+                                            "complete" == e.readyState && o.call(e, o)
+                                        })
+                                    }();
+                                alog("speed.set", {
+                                    fsItems: i,
+                                    fs: a
+                                })
+                            }(window, document);
+                        }
+                    </script>
+                </div>
+            </div>
+        </div>
+        <script src=https://code.bdstatic.com/npm/zepto@1.1.7/dist/zepto.min.js type=text/javascript></script>
+        <script>
+            if (window.alog) {
+                void function(a, b, c, d, e, f) {
+                    function g(b) {
+                        a.attachEvent ? a.attachEvent("onload", b, !1) : a.addEventListener && a.addEventListener("load", b)
+                    }
+                    function h(a, c, d) {
+                        d = d || 15;
+                        var e = new Date;
+                        e.setTime((new Date).getTime() + 1e3 * d),
+                        b.cookie = a + "=" + escape(c) + ";path=/;expires=" + e.toGMTString()
+                    }
+                    function i(a) {
+                        var c = b.cookie.match(new RegExp("(^| )" + a + "=([^;]*)(;|$)"));
+                        return null != c ? unescape(c[2]) : null
+                    }
+                    function j() {
+                        var a = i("PMS_JT");
+                        if (a) {
+                            h("PMS_JT", "", -1);
+                            try {
+                                a = a.match(/{["']s["']:(\d+),["']r["']:["']([\s\S]+)["']}/),
+                                a = a && a[1] && a[2] ? {
+                                    s: parseInt(a[1]),
+                                    r: a[2]
+                                } : {}
+                            } catch (c) {
+                                a = {}
+                            }
+                            a.r && b.referrer.replace(/#.*/, "") != a.r || alog("speed.set", "wt", a.s)
+                        }
+                    }
+                    if (a.alogObjectConfig) {
+                        var k = a.alogObjectConfig.sample
+                          , l = a.alogObjectConfig.rand;
+                        d = "https:" === a.location.protocol ? "https://fex.bdstatic.com" + d : "http://fex.bdstatic.com" + d,
+                        k && l && l > k || (g(function() {
+                            alog("speed.set", "lt", +new Date),
+                            e = b.createElement(c),
+                            e.async = !0,
+                            e.src = d + "?v=" + ~(new Date / 864e5) + ~(new Date / 864e5),
+                            f = b.getElementsByTagName(c)[0],
+                            f.parentNode.insertBefore(e, f)
+                        }),
+                        j())
+                    }
+                }(window, document, "script", "/hunter/alog/dp.mobile.min.js");
+            }
+        </script>
+        <script type=text/javascript src=https://ms.bdstatic.com/se/tiyu-wise/static/san/js/san.b1c968fb.js></script>
+        <script type=text/javascript src=https://ms.bdstatic.com/se/tiyu-wise/static/san/js/vendors.d330aaa8.js></script>
+        <script type=text/javascript src=https://ms.bdstatic.com/se/tiyu-wise/static/san/js/livedetail.1c7ec01b.js></script>
+    </body>
+</html>

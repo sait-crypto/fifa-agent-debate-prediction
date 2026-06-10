@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: debate-arena
+Version: 0.1.0
+Summary: 多智能体辩论决策系统 —— 最小学习版本
+Requires-Python: >=3.11
+Requires-Dist: openai>=1.30.0
+Requires-Dist: pydantic>=2.7.0
+Requires-Dist: pydantic-settings>=2.2.0
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0; extra == "dev"
+Requires-Dist: pytest-asyncio>=0.23; extra == "dev"
+Provides-Extra: search
+Requires-Dist: duckduckgo-search>=6.0; extra == "search"
